@@ -5,7 +5,7 @@ This public repository contains course materials for CHEM 3PA3, Quantum Mechanic
 
 Key topics to be covered include:
 
-0. Basics of Jupyter and Programming
+1. Basics of Jupyter and Programming
 1. From Newton to Schrödinger
 2. The Particle in a Box
 3. The Harmonic Oscillator
