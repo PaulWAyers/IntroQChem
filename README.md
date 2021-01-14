@@ -27,8 +27,8 @@ The main course content is conveyed through, and assessed by, Jupyter notebooks 
 ## Extra Credit
 
 ## Administrative Documents
-- [Syllabus](documents/syllabus.pdf)
-- Grading Scheme
+### [Syllabus](documents/syllabus.pdf)
+### Grading Scheme
 
 ## Other resources
 
