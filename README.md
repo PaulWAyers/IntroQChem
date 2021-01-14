@@ -4,6 +4,7 @@
 This public repository contains course materials for CHEM 3PA3, Quantum Mechanics and Spectroscopy 1. This course is an introduction to quantum chemistry.
 
 Key topics to be covered include:
+
 0.  Basics of Jupyter and Programming
 1.	From Newton to Schrödinger
 2.	The Particle in a Box
