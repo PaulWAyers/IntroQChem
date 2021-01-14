@@ -1,6 +1,6 @@
 # Introduction to Quantum Chemistry
 
-> **CHEM 3PA3** *Quantum Mechanics and Spectroscopy.* An introduction to quantum chemistry and its applications in spectroscopy and structure and unusual phenomena at the nanoscale.
+> **CHEM 3PA3** Quantum Mechanics and Spectroscopy. An introduction to quantum chemistry and its applications in spectroscopy and structure and unusual phenomena at the nanoscale.
 
 This public repository contains course materials for CHEM 3PA3, an introduction to quantum chemistry.
 
