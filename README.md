@@ -21,9 +21,9 @@ This public repository contains course materials for CHEM 3PA3, Quantum Mechanic
 
 The main course content is conveyed through, and assessed by, Jupyter notebooks and is made available via the Creative Commons Zero (CC0 version 1.0) license. 
 
-## Assignments:
+## Assignments
 
-## Other resources:
+## Other resources
 
 
 For instructors who would like to have the keys to assignments, please e-mail Paul Ayers <ayers@mcmaster.ca> from your official e-mail account. You can then use `nbgrader` to mark assignments. 
