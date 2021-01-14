@@ -29,5 +29,4 @@ The main course content is conveyed through, and assessed by, Jupyter notebooks 
 
 ## Other resources
 
-
-For instructors who would like to have the keys to assignments, please e-mail Paul Ayers <ayers@mcmaster.ca> from your official e-mail account. You can then use `nbgrader` to mark assignments. 
+For instructors who would like to have the keys to assignments, please e-mail Paul Ayers, <ayers@mcmaster.ca>, from your official e-mail account. You can then use `nbgrader` to mark assignments. 
