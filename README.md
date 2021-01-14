@@ -1,11 +1,11 @@
-# Introduction to Quantum Chemistry (CHEM 3PA3) 
-> An introduction to quantum chemistry and its applications in spectroscopy and structure and unusual phenomena at the nanoscale.
+# Introduction to Quantum Chemistry
+> **CHEM 3PA3** *Quantum Mechanics and Spectroscopy.* An introduction to quantum chemistry and its applications in spectroscopy and structure and unusual phenomena at the nanoscale.
 
-This public repository contains course materials for CHEM 3PA3, Quantum Mechanics and Spectroscopy 1. This course is an introduction to quantum chemistry.
+This public repository contains course materials for CHEM 3PA3, an introduction to quantum chemistry.
 
 ## Topics
 
-1. Basics of Jupyter and Programming
+1. Basics of Jupyter, Python, and Programming
 1. From Newton to Schrödinger
 2. The Particle in a Box
 3. The Harmonic Oscillator
@@ -27,6 +27,7 @@ The main course content is conveyed through, and assessed by, Jupyter notebooks 
 
 ## Administrative Documents
 - [Syllabus](documents/syllabus.pdf)
+- [Grading Scheme]
 
 ## Other resources
 
