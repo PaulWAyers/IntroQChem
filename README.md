@@ -3,7 +3,7 @@
 
 This public repository contains course materials for CHEM 3PA3, Quantum Mechanics and Spectroscopy 1. This course is an introduction to quantum chemistry.
 
-Key topics to be covered include:
+## Topics
 
 1. Basics of Jupyter and Programming
 1. From Newton to Schrödinger
@@ -21,9 +21,9 @@ Key topics to be covered include:
 
 The main course content is conveyed through, and assessed by, Jupyter notebooks and is made available via the Creative Commons Zero (CC0 version 1.0) license. 
 
-There are assignments on:
+## Assignments:
 
-Other resources that are available include:
+## Other resources:
 
 
 For instructors who would like to have the keys to assignments, please e-mail Paul Ayers <ayers@mcmaster.ca> from your official e-mail account. You can then use `nbgrader` to mark assignments. 
