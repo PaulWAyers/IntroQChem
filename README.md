@@ -26,7 +26,6 @@ The main course content is conveyed through, and assessed by, Jupyter notebooks 
 ## Extra Credit
 
 ## Administrative Documents
-- [Syllabus](documents/syllabus.pdf)
 
 ## Other resources
 
