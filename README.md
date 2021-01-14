@@ -23,6 +23,10 @@ The main course content is conveyed through, and assessed by, Jupyter notebooks 
 
 ## Assignments
 
+## Extra Credit
+
+## Documents
+
 ## Other resources
 
 
