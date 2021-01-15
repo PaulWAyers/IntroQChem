@@ -20,7 +20,7 @@ While computers always do *exactly* what you tell them to do, so in some sense t
 
 ## Why Learn [Python](https://docs.python.org/3/)?
 
-There are many programming languages out there, and each language has its unique advantages and disadvantages. Once you learn the basics of programming in one language, you can generally apply the same concepts to other languages. Python is one of the fastest-growing programming languages (Dropbox, Instagram, Netflix, and Google use Python extensively) and it is increasing popular in chemistry too. For more about the advantages of Python, watch the 2-minute [video segment](https://www.linkedin.com/learning/programming-foundations-fundamentals-3/why-python?u=56982905).
+There are many programming languages out there, and each language has its unique advantages and disadvantages. Once you learn the basics of programming in one language, you can generally apply the same concepts to other languages. Python is one of the fastest-growing programming languages (Dropbox, Instagram, Netflix, and Google use Python extensively) and it is increasing popular in chemistry too. For more about the advantages of Python, watch the 2-minute [video segment](https://www.linkedin.com/learning/programming-foundations-fundamentals-3/why-python).
 
 Compared to most other languages, Python is easier to read and write. It's syntax is relatively simple, yet its flexibility&mdash;its ability to perform tasks from web development to scientific computing&mdash;is nearly unsurpassed. Importantly, there are a large number of plug-and-play Python libraries, which allow one to extend the basic features of the Python language with additional features. We will, for example, find the Numpy and Scipy libraries especially helpful.
 
