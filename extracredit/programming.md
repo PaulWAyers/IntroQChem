@@ -1,15 +1,15 @@
 # Extra Credit Problems for Jupyter, Python, Numpy, etc..
 You can complete additional courses on LinkedIn Learning or other venues for extra credit. The below links are curated to be especially helpful and useful, but almost any online activity that you complete and can document the completion of is acceptable. I've indicated how many pages of homework this is considered to be equivalent to.
 
-## [Codecademy Python 2](https://www.codecademy.com/learn/learn-python) (100 points)
-This is Python 2, but Python 3 isn't very different, and the Python 3 course requires a (paid) subscription to Codecademy, while the Python 2 course does not. To do this assignment, sign up for Codecademy (free) and work through the 12 topical modules by reading about Python syntax and solving the interactive web-based exercises on your own. If you get stuck, you'll be provided with instructive hints. This [course](https://www.codecademy.com/learn/learn-python) will take *much* less than the time they estimate, because you can skip projects and quizzes that are accessible only through a (paid) PRO account. 
+## [Codecademy Python 2](https://www.codecademy.com/learn/learn-python)
+This is Python 2, but Python 3 isn't very different, and the Python 3 course requires a (paid) subscription to Codecademy, while the Python 2 course does not. To do this assignment, sign up for Codecademy (free) and work through the 12 topical modules by reading about Python syntax and solving the interactive web-based exercises on your own. If you get stuck, you'll be provided with instructive hints. This [course](https://www.codecademy.com/learn/learn-python) will take *much* less than the time they estimate, because you can skip projects and quizzes that are accessible only through a (paid) PRO account. **(100 points)**
 ##### Instructions: Take a screenshot of the certificate of completion and submit it for the extra credit marks. See image below.
 ![image](../linkedFiles/codecademy.png)
 
 ## Linkedin Learning 
-You can complete relevant LinkedIn Learning courses to earn extra credit; one will earn roughly 10 points/hour by doing this, though I will "round up" somewhat because working through the material in these courses does take time, I know. For example, you can choose to complete some of the courses you'd already (partly) seen in the course material. 
-- adsfa
-- https://www.linkedin.com/learning/programming-foundations-fundamentals-3/why-python?u=56982905
+You can complete relevant LinkedIn Learning courses to earn extra credit; one will earn roughly 10 points/hour by doing this, though I will "round up" somewhat because working through the material in these courses does take time, I know. For example, you can choose to complete some of the courses you've already (partly) seen in the course material. 
+- [Programming Foundations: Fundamentals](https://www.linkedin.com/learning/programming-foundations-fundamentals-3/the-fundamentals-of-programming?u=56982905)
+- [Python Data Analysis](https://www.linkedin.com/learning/python-data-analysis-2/get-started-in-data-analysis-with-python?u=56982905)
 ##### Instructions: Submit the LinkedIn Learning certificate of completion for extra credit.
 
 ## Online Python Tests
