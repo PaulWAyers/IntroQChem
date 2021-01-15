@@ -4,7 +4,7 @@
 
 This public repository contains course materials for CHEM 3PA3, an introduction to quantum chemistry.
 
-## Topics
+# Topics
 
 1. Basics of Jupyter, Python, and Programming
 1. From Newton to Schrödinger
@@ -22,14 +22,14 @@ This public repository contains course materials for CHEM 3PA3, an introduction 
 
 The main course content is conveyed through, and assessed by, Jupyter notebooks and is made available via the Creative Commons Zero (CC0 version 1.0) license. 
 
-## Assignments
+# Assignments
 
-## Extra Credit
+# Extra Credit
 
-## Administrative Documents
-### [Syllabus](documents/syllabus.pdf)
-### Grading Scheme
+# Administrative Documents
+## [Syllabus](documents/syllabus.pdf)
+# Grading Scheme
 
-## Other resources
+# Other resources
 
 For instructors who would like to have the keys to assignments, please e-mail Paul Ayers, <ayers@mcmaster.ca>, from your official e-mail account. You can then use `nbgrader` to mark assignments. 
