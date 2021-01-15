@@ -21,13 +21,19 @@ This public repository contains course materials for CHEM 3PA3, an introduction 
 1. Polyatomic Molecules
 
 ## Assignments
+1. [Introduction to Jupyter](assignments/Jupyter.md).
+2. [Basic Python](assignments/python.md).
+3. [Introduction to Numpy](assignments/numpy.md).
+4. [Exploring the classes's marking scheme with Jupyter, Python, Numpy, and syzygy](assignments/syzygy.md).
 
 ## Extra Credit
+
+1. [Basics of Jupyter, Python, and Programming](extracredit/programming.md).
 
 ## Administrative Documents
 
 - [Syllabus](documents/syllabus.pdf)
-- Grading Scheme
+- [Grading Scheme](notes/grading.ipynb)
 
 ## Other resources
 

@@ -50,7 +50,7 @@ To learn more about Jupyter, programming concepts, Python programming, and Numpy
 - [Use Numpy](../assignments/numpy.md)
 - [Use Jupyter, Python, and Numpy in Syzygy]((../assignments/syzygy.md)
 
-In addition, you can submit extra credit assignments.
+In addition, you can submit [extra credit assignments](../extracredit/Jupyter.md).
 
 ### Local Installation of Jupyter (optional)
 
@@ -86,7 +86,9 @@ There are *many* free and paid resources available for deepening your knowledge 
 1. Think Julia [free online book](https://benlauwens.github.io/ThinkJulia.jl/latest/book.html).
 1. Intro to Julia [video](https://www.youtube.com/watch?v=8h8rQyEpiZA&t).
 1. Numpy tutorial [web site](https://numpy.org/doc/stable/user/quickstart.html).
+1. [Python Online Quiz](https://www.tutorialspoint.com/python/python_online_quiz.htm) 
+1. Exercism has tracks for [Python](https://exercism.io/tracks/python) and [Julia](https://exercism.io/tracks/julia).
 
 <br/><br/>
 
->> Hat-tip: Farnaz Heidar-Zadeh at Queens University, who curated much of this material.
+>> Hat-tip: Farnaz Heidar-Zadeh at Queen's University, who curated much of this material.

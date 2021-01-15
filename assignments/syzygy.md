@@ -1,4 +1,3 @@
-
 # Demonstration of Jupyter Workflow with `Syzygy`
 
 Your first assignment is to use a *Python* *Jupyter* notebook which demos the grading scheme for the class using *Numpy*. The basic steps, which are demonstrated in the below video tutorial, are:
