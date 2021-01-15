@@ -6,7 +6,7 @@ This public repository contains course materials for CHEM 3PA3, an introduction 
 
 ## Topics
 
-1. Basics of Jupyter, Python, and Programming
+1. [Basics of Jupyter, Python, and Programming](notes/jupyter.md)
 1. From Newton to Schrödinger
 2. The Particle in a Box
 3. The Harmonic Oscillator
