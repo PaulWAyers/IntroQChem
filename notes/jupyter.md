@@ -50,7 +50,7 @@ To learn more about Jupyter, programming concepts, Python programming, and Numpy
 - [Use Numpy](../assignments/numpy.md)
 - [Use Jupyter, Python, and Numpy in Syzygy]((../assignments/syzygy.md)
 
-In addition, you can submit [extra credit assignments](../extracredit/Jupyter.md).
+In addition, you can submit [extra credit assignments](../extracredit/programming.md).
 
 ### Local Installation of Jupyter (optional)
 

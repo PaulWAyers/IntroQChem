@@ -4,7 +4,7 @@ You can complete additional courses on LinkedIn Learning or other venues for ext
 ## [Codecademy Python 2](https://www.codecademy.com/learn/learn-python) (100 points)
 This is Python 2, but Python 3 isn't very different, and the Python 3 course requires a (paid) subscription to Codecademy, while the Python 2 course does not. To do this assignment, sign up for Codecademy (free) and work through the 12 topical modules by reading about Python syntax and solving the interactive web-based exercises on your own. If you get stuck, you'll be provided with instructive hints. This [course](https://www.codecademy.com/learn/learn-python) will take *much* less than the time they estimate, because you can skip projects and quizzes that are accessible only through a (paid) PRO account. 
 ##### Instructions: Take a screenshot of the certificate of completion and submit it for the extra credit marks. See image below.
-![image](../linkedfiles/codecademy.png)
+![image](../linkedFiles/codecademy.png)
 
 ## Linkedin Learning 
 You can complete relevant LinkedIn Learning courses to earn extra credit; one will earn roughly 10 points/hour by doing this, though I will "round up" somewhat because working through the material in these courses does take time, I know. For example, you can choose to complete some of the courses you'd already (partly) seen in the course material. 
