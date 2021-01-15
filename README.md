@@ -34,7 +34,7 @@ This public repository contains course materials for CHEM 3PA3, an introduction 
 ## Administrative Documents
 
 - [Syllabus](documents/syllabus.pdf)
-- [Grading Scheme](notes/grading.ipynb)
+- Grading Scheme [notebook](ipynb/GradingDemo.ipynb) [html](ipynb/GradingDemo.html)
 
 ## Other resources
 
