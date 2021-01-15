@@ -1,4 +1,4 @@
-# Extra Credit Problems for Jupyter, Python, Numpy, etc..
+# Extra Credit Problems for Jupyter, Python, Numpy, etc.
 
 You can complete additional courses on LinkedIn Learning or other venues for extra credit. The below links are curated to be especially helpful and useful, but almost any online activity that you complete and can document the completion of is acceptable. I've indicated how many pages of homework this is considered to be equivalent to.
 
@@ -35,8 +35,8 @@ You can complete relevant LinkedIn Learning courses to earn extra credit; one wi
 
 - [**Interactive Python Quizzes from Real Python**](https://realpython.com/quizzes/) A collection of short interactive quizzes. **(~5 minutes per quiz; 2 points)**
 
-  - Instructions: Take the quiz and then submit a screenshot of the score report to show that you passed the quiz. 
+  - Instructions: Take the quiz and then submit a screenshot of the score report to show that you passed the quiz.
 
-- [**Exercism**](http://exercism.io/) Free mentor-based learning pathways for [Python](https://exercism.io/tracks/python), [Julia](https://exercism.io/tracks/julia), and much more. 
+- [**Exercism**](http://exercism.io/) Free mentor-based learning pathways for [Python](https://exercism.io/tracks/python), [Julia](https://exercism.io/tracks/julia), and much more.
 
   - Instructions: If you use Exercism, you would be able to submit work you create therein for extra credit.
