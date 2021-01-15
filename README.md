@@ -2,7 +2,7 @@
 
 > **CHEM 3PA3** *Quantum Mechanics and Spectroscopy.* An introduction to quantum chemistry and its applications in spectroscopy and structure and unusual phenomena at the nanoscale.
 
-This public repository contains course materials for CHEM 3PA3, an introduction to quantum chemistry.
+This public repository contains course materials for CHEM 3PA3, an introduction to quantum chemistry. The main course content is conveyed through, and assessed by, Jupyter notebooks and is made available via the Creative Commons Zero [CC0 version 1.0](LICENSE) license.
 
 ## Topics
 
@@ -19,8 +19,6 @@ This public repository contains course materials for CHEM 3PA3, an introduction 
 10. Hartree-Fock Theory and Ab Initio Methods
 11. Diatomic Molecules
 12. Polyatomic Molecules
-
-The main course content is conveyed through, and assessed by, Jupyter notebooks and is made available via the Creative Commons Zero (CC0 version 1.0) license.
 
 ## Assignments
 
