@@ -16,6 +16,7 @@ You can complete relevant LinkedIn Learning courses to earn extra credit; one wi
 
 - [Programming Foundations: Fundamentals](https://www.linkedin.com/learning/programming-foundations-fundamentals-3/the-fundamentals-of-programming?u=56982905)
 - [Python Data Analysis](https://www.linkedin.com/learning/python-data-analysis-2/get-started-in-data-analysis-with-python?u=56982905)
+- [Julia Power like Python, Speed like C](https://www.linkedin.com/learning/learning-julia/julia-power-like-python-speed-like-c)
 
   - Instructions: Submit the LinkedIn Learning certificate of completion for extra credit.
 
