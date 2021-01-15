@@ -40,6 +40,7 @@ In this course, we will use a *JupyterHub* that is provided free to most Canadia
 
 1. [Log into syzygy.ca](https://mcmaster.syzygy.ca/). This is a *JupyterHub*.
 2. Read the [tutorial](https://intro.syzygy.ca/), especially the documentation on [opening](https://intro.syzygy.ca/the-basic-elements/) and [using](https://intro.syzygy.ca/python-for-computing/) a Python 3 notebook. Opening a new empty notebook is as simple as clicking "New -- Notebook -- Python 3".
+3. Look, for example, at the [simple notebook](../ipynb/GradingDemo.ipynb) that shows how grades are computed in this course.
 
 ### LinkedIn Learning Courses
 
