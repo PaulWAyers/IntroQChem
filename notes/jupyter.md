@@ -8,3 +8,4 @@ Your first assignment is to use a *Python* *Jupyter* notebook which demos the gr
 Please refer to the assignments on Python, Numpy, and Jupyter for further training. 
 
 You may also wish to complete extra-credit assignments.
+
