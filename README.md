@@ -8,17 +8,17 @@ This public repository contains course materials for CHEM 3PA3, an introduction 
 
 1. [Basics of Jupyter, Python, and Programming](notes/jupyter.md)
 1. From Newton to Schrödinger
-2. The Particle in a Box
-3. The Harmonic Oscillator
-4. Elementary Spectroscopy
-5. Vibrational Spectroscopy
-6. The Rigid Rotor and Rotational Spectroscopy
-7. The Born-Oppenheimer Approximation
-8. The One-Electron Atom
-9. Many-Electron Atoms
-10. Hartree-Fock Theory and Ab Initio Methods
-11. Diatomic Molecules
-12. Polyatomic Molecules
+1. The Particle in a Box
+1. The Harmonic Oscillator
+1. Elementary Spectroscopy
+1. Vibrational Spectroscopy
+1. The Rigid Rotor and Rotational Spectroscopy
+1. The Born-Oppenheimer Approximation
+1. The One-Electron Atom
+1. Many-Electron Atoms
+1. Hartree-Fock Theory and Ab Initio Methods
+1. Diatomic Molecules
+1. Polyatomic Molecules
 
 ## Assignments
 
