@@ -45,10 +45,10 @@ In this course, we will use a *JupyterHub* that is provided free to most Canadia
 
 To learn more about Jupyter, programming concepts, Python programming, and Numpy, your first assignments are LinkedIn Learning courses. Before you get started, it's helpful to [log into LinkedIn Learning](https://lnkd.in/gj-9Xgg). (However, the links provided should automatically prompt you to log in if you are not already.) If you already have a LinkedIn account associated with a different e-mail, you can link your accounts. Upon completing each course, download your certificate of completion and upload it as your assignment. You can also add the certificate to your LinkedIn profile. You will have assignments to teach you how to
 
-- Use Jupyter notebooks
-- Program in Python
-- Use Numpy
-- Use Jupyter, Python, and Numpy in Syzygy.
+- [Use Jupyter notebooks](../assignments/Jupyter.md)
+- [Program in Python](../assignments/python.md)
+- [Use Numpy](../assignments/numpy.md)
+- [Use Jupyter, Python, and Numpy in Syzygy]((../assignments/syzygy.md)
 
 In addition, you can submit extra credit assignments.
 
