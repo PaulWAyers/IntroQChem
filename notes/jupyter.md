@@ -30,7 +30,7 @@ To write and execute your code, you need to have access to the appropriate intep
 
 ## What is [Numpy](https://numpy.org/)?
 
-Numpy is a Python library that provides methods for manipulating vectors and matrices in Python. For example, Numpy can be used to determine the eigenvalues and eigenvectors of a matrix, or to solve a system of linear equations.
+Numpy is a Python library that provides methods for manipulating vectors and matrices in Python. For example, Numpy can be used to determine the eigenvalues and eigenvectors of a matrix, or to solve a system of linear equations. Numpy undergirds many of the most useful scientific software packages, and provides most of the key mathematical tools that are needed in this course.
 
 ## Getting Started
 
