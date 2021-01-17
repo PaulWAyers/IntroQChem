@@ -22,10 +22,10 @@
 
 Your assignments will be turned in using Microsoft Teams. For instructions on how to turn in an assignment with Microsoft Teams, see the [webpage](https://support.microsoft.com/en-us/office/turn-in-an-assignment-in-microsoft-teams-e25f383a-b747-4a0b-b6d5-a2845a52092b).
 
-1. [Introduction to Jupyter](assignments/Jupyter.md).
-2. [Basic Python](assignments/python.md).
-3. [Introduction to Numpy](assignments/numpy.md).
-4. [Computing Course Marks with Jupyter, Python, Numpy, and syzygy](assignments/syzygy.md).
+1. [Introduction to Jupyter](problems/Jupyter.md).
+2. [Basic Python](problems/python.md).
+3. [Introduction to Numpy](problems/numpy.md).
+4. [Computing Course Marks with Jupyter, Python, Numpy, and syzygy](problems/syzygy.md).
 
 ## Extra Credit
 
@@ -66,6 +66,7 @@ Materials from McMaster (my notes and Randy Dumont's [book](documents/DumontBook
 
 - [Syllabus](documents/syllabus.pdf)
 - Grading Scheme [Jupyter notebook](ipynb/GradingDemo.ipynb) [web page](ipynb/GradingDemo.html)
+
 ## Other resources
 
 Keys to assignments are not always available. But where available, instructors can have the keys by e-mailingPaul Ayers, <ayers@mcmaster.ca>, from your official e-mail account. Where possible, `nbgrader` can be used to mark assignments. 
