@@ -25,7 +25,7 @@ Your assignments will be turned in using Microsoft Teams. For instructions on ho
 1. [Introduction to Jupyter](assignments/Jupyter.md).
 2. [Basic Python](assignments/python.md).
 3. [Introduction to Numpy](assignments/numpy.md).
-4. [Exploring the classes's marking scheme with Jupyter, Python, Numpy, and syzygy](assignments/syzygy.md).
+4. [Computing Course Marks with Jupyter, Python, Numpy, and syzygy](assignments/syzygy.md).
 
 ## Extra Credit
 
