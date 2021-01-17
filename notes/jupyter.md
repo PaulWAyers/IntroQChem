@@ -82,13 +82,14 @@ There are *many* free and paid resources available for deepening your knowledge 
 1. Python Tutorial from W3School [tutorial](https://www.w3schools.com/python/default.asp).
 1. The Incredible Growth of Python: [web site](https://stackoverflow.blog/2017/09/06/incredible-growth-python/).
 1. Introducing Python to Chemistry Students: [web site](https://pythoninchemistry.org/).
-1. Introduction to Julia (assumes prior programming knowledge). [interactive video tutorials](https://juliaacademy.com/p/intro-to-julia).
-1. List of Julia tutorials [web based](https://julialang.org/learning/tutorials/).
-1. Think Julia [free online book](https://benlauwens.github.io/ThinkJulia.jl/latest/book.html).
-1. Intro to Julia [video](https://www.youtube.com/watch?v=8h8rQyEpiZA&t).
-1. Numpy tutorial [web site](https://numpy.org/doc/stable/user/quickstart.html).
-1. [Python Online Quiz](https://www.tutorialspoint.com/python/python_online_quiz.htm) 
-1. Exercism has tracks for [Python](https://exercism.io/tracks/python) and [Julia](https://exercism.io/tracks/julia).
+2. Runestone academy (notes with interactive tools) [interactive web site](https://runestone.academy/runestone/books/published/thinkcspy/index.html). There are other interesting courses [too](https://runestone.academy/runestone/default/user/login?_next=/runestone/default/index.)
+3. Introduction to Julia (assumes prior programming knowledge). [interactive video tutorials](https://juliaacademy.com/p/intro-to-julia).
+4. List of Julia tutorials [web based](https://julialang.org/learning/tutorials/).
+5. Think Julia [free online book](https://benlauwens.github.io/ThinkJulia.jl/latest/book.html).
+6. Intro to Julia [video](https://www.youtube.com/watch?v=8h8rQyEpiZA&t).
+7. Numpy tutorial [web site](https://numpy.org/doc/stable/user/quickstart.html).
+8. [Python Online Quiz](https://www.tutorialspoint.com/python/python_online_quiz.htm) 
+9. Exercism has tracks for [Python](https://exercism.io/tracks/python) and [Julia](https://exercism.io/tracks/julia).
 
 <br/><br/>
 
