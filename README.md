@@ -32,7 +32,7 @@ Your assignments will be turned in using Microsoft Teams. For instructions on ho
 Extra credit problems should be sent to the instructor in a private chat message via Microsoft Teams.
 
 1. [Basics of Jupyter, Python, and Programming](extracredit/programming.md).
-1. Problems from Randy Dumont's [book](documents/DumontBook.pdf) and his course.
+1. Problems from Randy Dumont's [book](documents/DumontBook.pdf) and his [course](extracredit/DumontProblems.pdf).
 1. Problem Sets from Jack Simons' and Jeff Nichols' [Quantum Mechanics in Chemistry](http://simons.hec.utah.edu/TheoryPage/BookPDF/TableofContents.html)
 1. [Problems](http://simons.hec.utah.edu/ITCSecondEdition/Problems.pdf) from Jack Simons' [An Introduction to Theoretical Chemistry, 2nd edition](http://simons.hec.utah.edu/ITCSecondEdition/TableofContents.html).
 1. Problems from many other quantum chemistry textbooks are also acceptable. These are not (to my knowledge) legally available free online, though you can try [Sci-Hub](https://en.wikipedia.org/wiki/Sci-Hub), and there are occasionally other links (of likewise questionable [legality](http://www.nanoer.net/d/img/Molecular%20Quantum%20Mechanics,%205th%20Edition.pdf) and [permanence](http://www.dll.cheminfinity.com/arks/wp-file/books/Ira-N.Levine-Quantum-Chemistry-Pearson-(2013)-cheminfinity.com.pdf)). Good examples are:
