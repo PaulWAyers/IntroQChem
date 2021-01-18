@@ -6,7 +6,7 @@
 
 1. [Basics of Jupyter, Python, and Programming](notes/jupyter.md)
 1. From Newton to Schrödinger
-1. The Particle in a Box
+1. The Particle in a Box and the Postulates of Quantum Mechanics
 1. The Harmonic Oscillator
 1. Elementary Spectroscopy
 1. Vibrational Spectroscopy
