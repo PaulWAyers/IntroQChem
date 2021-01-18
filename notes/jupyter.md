@@ -41,6 +41,7 @@ In this course, we will use a *JupyterHub* that is provided free to most Canadia
 1. [Log into syzygy.ca](https://mcmaster.syzygy.ca/). This is a *JupyterHub*.
 2. Read the [tutorial](https://intro.syzygy.ca/), especially the documentation on [opening](https://intro.syzygy.ca/the-basic-elements/) and [using](https://intro.syzygy.ca/python-for-computing/) a Python 3 notebook. Opening a new empty notebook is as simple as clicking "New -- Notebook -- Python 3".
 3. Look, for example, at the [simple notebook](../ipynb/GradingDemo.ipynb) that shows how grades are computed in this course. You can access this notebook directly in syzygy via the [link](https://mcmaster.syzygy.ca/jupyter/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FPaulWAyers%2FIntroQChemProblems&urlpath=tree%2FIntroQChemProblems%2Fipynb%2FGradingDemo.ipynb&branch=main). (This link will only work if you are at McMaster. If you are elsewhere, try the [link](https://pims.syzygy.ca/jupyter/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FPaulWAyers%2FIntroQChemProblems&urlpath=tree%2FIntroQChemProblems%2Fipynb%2FGradingDemo.ipynb&branch=main))
+4. A video demo using Syzygy to host a Jupyter notebook to compute the course marks can be found [online](https://www.macvideo.ca/media/1_5jdntum9). Or you can [download the mp4](linkedFiles/gradesdemo.mp4)
 
 ### LinkedIn Learning Courses
 
