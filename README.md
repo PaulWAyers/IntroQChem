@@ -4,8 +4,8 @@
 
 ## Topics
 
-1. [Basics of Jupyter, Python, and Programming](notes/jupyter.md)
-1. [From Newton to Schrödinger](notes/History.html) [Jupyter](ipynb/History.ipynb)
+1. [Basics of Jupyter, Python, and Programming](notes/jupyter.md) [html]()
+1. From Newton to Schrödinger [Jupyter](ipynb/History.ipynb), [html](notes/History.html)
 1. The Schr&ouml;dinger Equation
 1. The Particle in a Box and the Postulates of Quantum Mechanics
 1. The Harmonic Oscillator
