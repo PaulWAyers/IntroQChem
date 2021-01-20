@@ -1,6 +1,14 @@
 # Jupyter and Computer Programming
 
-Throughout this course, we will use *Jupyter* notebooks to explore the material. Your first assignments will provide you with some basic background in *Jupyter*, *Python*, and *Numpy*. (I had been hoping to use *Julia*, which is arguably easier, but the online tools available at McMaster seem not to support *Julia*.)
+Throughout this course, we will use *Jupyter* notebooks to explore the material. Your first assignments will provide you with some basic background in *Jupyter*, *Python*, and *Numpy*. (I had been hoping to use *Julia*, which is arguably easier, but the online tools presently available at McMaster seem not to support *Julia*.)
+
+## &#x1f945; Learning Objectives
+
+- Fundamental programming concepts
+- Computer programming technical jargon (interpreter, syntax, semantics, execution, etc.)
+- Basics of Python programming language and its benefits
+- How to use Jupyter
+- How to use Numpy
 
 ## Overview of Programming
 
@@ -64,15 +72,7 @@ If you would like to use Python and Jupyter locally, the easiest way to do this 
 
 You can then open the Anaconda Navigator and launch a Jupyter Notebook.
 
-## Learning Objectives
-
-- Fundamental programming concepts
-- Computer programming technical jargon (interpreter, syntax, semantics, execution, etc.)
-- Basics of Python programming language and its benefits
-- How to use Jupyter
-- How to use Numpy
-
-## Additional Learning Resources
+## &#x1f4da; Additional Learning Resources
 
 There are *many* free and paid resources available for deepening your knowledge of Python including videos, tutorials, courses, and books. The following are recommended. For tutorial-based courses, if you can somehow document your completion of the tutorial, then you can submit the proof of your completion for extra credit.
 
