@@ -1,27 +1,6 @@
 <!DOCTYPE html>
 <html>
-<head><meta charset="utf-8"/>
-
-<!-- javascript from CDN for conversion -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/0.3.5/marked.js"></script>
-
-    
-
-
-<script type="text/x-mathjax-config">
-// make sure that equations numbers are enabled
-MathJax.Hub.Config({ TeX: { equationNumbers: {
-    autoNumber: "AMS", // All AMS equations are numbered
-    useLabelIds: true, // labels as ids
-    // format the equation number - uses an offset eqNumInitial (default 0)
-    formatNumber: function (n) {return String(Number(n)+Number(1)-1)} 
-    } } 
-});
-</script>
-
-
-
-<meta charset="utf-8" />
+<head><meta charset="utf-8" />
 
 <title>History</title>
 
@@ -13090,27 +13069,12 @@ div#notebook {
         }
     });
     </script>
-    <!-- End of mathjax configuration -->
+    <!-- End of mathjax configuration --></head>
 
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.css">
 
-
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.css">
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
 
-
-<!-- stylesheet from CDN -->
-<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" type="text/css" href="https://rawgit.com/jfbercher/jupyter_latex_envs/master/src/latex_envs/static/latex_envs.css">
-
-<!-- Custom stylesheet, it must be in the same directory as the html file -->
-<link rel="stylesheet" href="custom.css"> 
-
-<!-- Load mathjax 
-<script src="https://rawgit.com/ipython-contrib/jupyter_contrib_nbextensions/master/src/jupyter_contrib_nbextensions/nbextensions/latex_envs/thmsInNb4.js"></script>
--->
-<script type="text/javascript"  src="https://rawgit.com/jfbercher/jupyter_latex_envs/master/src/latex_envs/static/thmsInNb4.js"> </script>
-
-<!-- for toc2 -->
 <link rel="stylesheet" type="text/css" href="https://rawgit.com/ipython-contrib/jupyter_contrib_nbextensions/master/src/jupyter_contrib_nbextensions/nbextensions/toc2/main.css">
 
 <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -13120,50 +13084,14 @@ div#notebook {
 <script>
 $( document ).ready(function(){
 
-        //Value of configuration variables, some taken from the notebook's metada. 
-        eqNum = 0; // begins equation numbering at eqNum+1
-        eqLabelWithNumbers = "True"=="True" ? true : false; //if true, label equations with equation numbers; 
-                                       //otherwise using the tag specified by \label
-        conversion_to_html = false;
-        current_cit=1;
-        cite_by='key';  //only number and key are supported
-        //var document={}
-        document.bibliography={};
+            var cfg = {"base_numbering": 1, "nav_menu": {"height": "688px", "width": "378px"}, "number_sections": true, "sideBar": true, "skip_h1_title": false, "title_cell": "Table of Contents", "title_sidebar": "Contents", "toc_cell": false, "toc_position": {"height": "602.857px", "left": "426px", "top": "183.571px", "width": "236.708px"}, "toc_section_display": true, "toc_window_display": true};
 
-        // Read environment map config
-        initmap();
-        // Read user envs config, if specified
-        
-                environmentMap = $.extend(true,{}, environmentInitialMap)        
-        
-
-        // fire the main function with these parameters
-        var html_to_analyse = $('body').html()
-        var html_converted = thmsInNbConv(marked,html_to_analyse);
-        html_converted = html_converted.replace(/%[\S\t ]*<\/p>/gm,"</p>")
-        $('body').html(html_converted)
-        // Show/hide anchors
-        var labels_anchors = "False"=="True" ? true : false;
-        $('.latex_label_anchor').toggle(labels_anchors)
-        // Number all environments
-        report_style_numbering = "False"=="True" ? true : false;
-        reset_counters();
-        renumberAllEnvs();
-
-  
-        // toc2
-        var cfg = {"base_numbering": 1, "nav_menu": {"height": "688px", "width": "378px"}, "number_sections": true, "sideBar": true, "skip_h1_title": false, "title_cell": "Table of Contents", "title_sidebar": "Contents", "toc_cell": false, "toc_position": {"height": "602.857px", "left": "426px", "top": "183.571px", "width": "236.708px"}, "toc_section_display": true, "toc_window_display": true};
-        // fire the main function with these parameters
-        require(['nbextensions/toc2/toc2'], function (toc2) {
-            toc2.table_of_contents(cfg);
-        });
+            // fire the main function with these parameters
+            require(['nbextensions/toc2/toc2'], function (toc2) {
+                toc2.table_of_contents(cfg);
+            });
     });
-
-</script></head>
-
-
-
-
+</script>
 <body>
   <div tabindex="-1" id="notebook" class="border-box-sizing">
     <div class="container" id="notebook-container">
@@ -13200,12 +13128,13 @@ where $c$ is the speed of light.</p>
 $$ E_{\text{total}} \propto n_{ph} \nu_{ph} $$
 The proportional constant is called <em>Planck's constant</em>:
 $$ E_{\text{total}} = h n_{ph} \nu_{ph} $$
-where</p>
+where
 \begin{align}
 h &amp;= 6.626 \cdot 10^{-34} \; \text{J} \cdot \text{s} \\\\
   &amp;= 6.626 \cdot 10^{-34} \; \tfrac{\text{kg} \cdot \text{m}^2}{\text{s}} \\\\
   &amp;= 6.626 \cdot 10^{-34} \; \tfrac{\text{V} \cdot \text{s}}{\text{C}}
-\end{align}<p>Planck's constant is very small, which explains why electromagnetic radiation does not seem to be "chunky" in everyday life. Similarly, the masses and charges of elementary particles are very small, which is why Newtonian mechanics is accurate enough to describe macroscopic phenomena. However, it is essential to include quantum effects when we deal with particles with very little mass (e.g., electrons).</p>
+\end{align}
+Planck's constant is very small, which explains why electromagnetic radiation does not seem to be "chunky" in everyday life. Similarly, the masses and charges of elementary particles are very small, which is why Newtonian mechanics is accurate enough to describe macroscopic phenomena. However, it is essential to include quantum effects when we deal with particles with very little mass (e.g., electrons).</p>
 <p>Planck proposed the quantization of radiation as a mathematical trick to provide a model for blackbody radiation.  In 1905, Einstein interpreted this trick in the most literal possible way, proposing the quantization of light.  This interpretation led to an interpretation of the photoelectric effect, which eventually earned Einstein the Nobel Prize in Physics.  Planck also won the Nobel Prize in physics.</p>
 
 </div>
@@ -13227,11 +13156,12 @@ $$ E_{ph} = h \nu_{ph} $$</p>
 $$ \text{Kinetic Energy}_{\text{max}} = h \nu - W $$
 As the light becomes more intense, the number of photons increases and the number of electrons emitted increases but, unless the light is very, very, very intense, the maximum kinetic energy of the electrons is left unaltered.</p>
 <h3 id="Compton-Effect"><a href="https://en.wikipedia.org/wiki/Compton_scattering">Compton Effect</a><a class="anchor-link" href="#Compton-Effect">&#182;</a></h3><p><img src="https://upload.wikimedia.org/wikipedia/commons/e/e3/Compton-scattering.svg" alt="Compton Scattering" title="Shows how photons can inelastically scatter with electrons consistent with conservation of energy and momentum, licensed by Jabberwok under CC-SA 3"></p>
-<p>When you shine light on an (isolated) electron sitting at rest, sometimes the light scatters inelastically&mdash;that is the emitted light has a lower frequency than the incident light. The change in energy between the incident and emitted light is manifest in the kinetic energy of the electron. However, it's observed that the electron does not move in an arbitrary direction, but instead moves in the direction that would be expected if a photon were a classical particle moving at the speed of light with effective mass $m_{ph,\text{eff}} = \tfrac{h \nu}{c^2}$. Note that the photon does not actually have mass. However, the photon does have momentum, which explains the inelastic scattering result. The formula is derived by <em>assuming</em> that one can set the rest-mass-energy expression, $E = m c^2$, to the Planck relation for the energy of a photon. Then</p>
+<p>When you shine light on an (isolated) electron sitting at rest, sometimes the light scatters inelastically&mdash;that is the emitted light has a lower frequency than the incident light. The change in energy between the incident and emitted light is manifest in the kinetic energy of the electron. However, it's observed that the electron does not move in an arbitrary direction, but instead moves in the direction that would be expected if a photon were a classical particle moving at the speed of light with effective mass $m_{ph,\text{eff}} = \tfrac{h \nu}{c^2}$. Note that the photon does not actually have mass. However, the photon does have momentum, which explains the inelastic scattering result. The formula is derived by <em>assuming</em> that one can set the rest-mass-energy expression, $E = m c^2$, to the Planck relation for the energy of a photon. Then 
 \begin{align}
 m_{ph,\text{eff}} c^2 &amp;= h \nu \\\\
   &amp;= \tfrac{h \nu}{c^2}
-\end{align}<p>and the momentum of the photon would be its effective mass times its speed, $c$:
+\end{align}
+and the momentum of the photon would be its effective mass times its speed, $c$:
 $$ p_{ph} = \tfrac{h \nu}{c} $$
 Recall that the wavelength, $\lambda$, and frequency, $\nu$ of light are related according to the relation
 $$ \nu = \tfrac{c}{\lambda} $$
@@ -13250,7 +13180,7 @@ This suggests that photons are associated with transitions between energy levels
 
 <pre><code>- Albert Einstein</code></pre>
 </blockquote>
-<p>The previous experiments, among many others, established that particles like electrons have wave-like properties, that electromagnetic radiation is composed of discrete photons with particle-like momentum and energy. This is called The fact particles possess wave-like properties and waves provide particle-like properties is called wave-particle duality: there is only one type of "stuff" in the universe and that stuff is "chunky" (like particles) and can constructively and deconstructively interfere (like waves). Moreover, the energies of atoms and molecules are quantized, having only specific discrete values.</p>
+<p>The previous experiments, among many others, established that particles like electrons have wave-like properties, that electromagnetic radiation is composed of discrete photons with particle-like momentum and energy. The fact particles possess wave-like properties and waves provide particle-like properties is called <a href="https://en.wikipedia.org/wiki/Wave%E2%80%93particle_duality">wave-particle duality</a>: there is only one type of "stuff" in the universe and that stuff is "chunky" (like particles) and can constructively and deconstructively interfere (like waves). Moreover, the energies of atoms and molecules are quantized, having only specific discrete values.</p>
 
 </div>
 </div>
@@ -13284,19 +13214,22 @@ Inserting the wavefunction into the Schr&ouml;dinger equation, the left-hand-sid
 $$
  i \hbar \frac{d \Psi(x,t)}{dt} =e^{\frac{i S(x,t)}{\hbar}} \left( i \hbar \frac{d \psi_0(x,t)}{dt}-\psi_0(x,t) \frac{d S(x,t)}{dt} \right)
 $$
-and the right-hand-side is</p>
+and the right-hand-side is
 \begin{align}
 &amp; \left( -\frac{\hbar^2}{2m} \frac{d^2 \Psi(x,t)}{dx^2} +V(x,t)\Psi(x,t) \right) \\\\
 &amp; = e^{\frac{i S(x,t)}{\hbar}} \left(-\frac{\hbar^2}{2m} \frac{d^2 \psi_0(x,t)}{dx^2} - \frac{i \hbar}{m}\frac{d \psi_0(x,t)}{dx}\frac{d S(x,t)}{dx} - \frac{i \hbar}{2m} \psi_0(x,t) \frac{d^2 S(x,t)}{dx^2} + \frac{1}{2m}\psi_0(x,t)\left(\frac{d S(x,t)}{dx}\right)^2 + V(x,t) \psi_0(x,t) \right) 
-\end{align}<p>Inserting these equations into the Schr&ouml;dinger equation and dividing through by $e^{\frac{i S(x,t)}{\hbar}}$ gives:</p>
+\end{align}
+Inserting these equations into the Schr&ouml;dinger equation and dividing through by $e^{\frac{i S(x,t)}{\hbar}}$ gives:
 \begin{align} 
 &amp; \left( i \hbar \frac{d \psi_0(x,t)}{dt}-\psi_0(x,t) \frac{d S(x,t)}{dt} \right) \\\\
 &amp; = \left(-\frac{\hbar^2}{2m} \frac{d^2 \psi_0(x,t)}{dx^2} - \frac{i \hbar}{m}\frac{d \psi_0(x,t)}{dx}\frac{d S(x,t)}{dx} - \frac{i \hbar}{2m} \psi_0(x,t) \frac{d^2 S(x,t)}{dx^2} + \frac{1}{2m}\psi_0(x,t)\left(\frac{d S(x,t)}{dx}\right)^2 + V(x,t) \psi_0(x,t) \right) 
-\end{align}<p>The real and imaginary parts of this equation must be separately equal to each other. The real part of the equation is</p>
+\end{align}
+The real and imaginary parts of this equation must be separately equal to each other. The real part of the equation is 
 \begin{align}
 -\psi_0(x,t) \frac{d S(x,t)}{dt}
 = \left(-\frac{\hbar^2}{2m} \frac{d^2 \psi_0(x,t)}{dx^2} + \frac{1}{2m}\psi_0(x,t)\left(\frac{d S(x,t)}{dx}\right)^2 + V(x,t) \psi_0(x,t) \right) 
-\end{align}<p>Dividing both sides by $\psi_0(x,t)$ and taking the classical limit, where $\hbar \rightarrow 0$, gives back the Hamilton-Jacobi equation,
+\end{align}
+Dividing both sides by $\psi_0(x,t)$ and taking the classical limit, where $\hbar \rightarrow 0$, gives back the Hamilton-Jacobi equation,
 $$ - \frac{d S(x,t)}{dt}
 = \left(\frac{1}{2m}\left(\frac{d S(x,t)}{dx}\right)^2 + V(x,t) \right) $$
 The imaginary part of the equation is:
@@ -13310,12 +13243,13 @@ $$ \frac{d \rho(x,t)}{dt} = -\nabla \cdot \rho(x,t) \nabla v(x,t) $$
 where $v(x,t)$ is the velocity and $\rho(x,t)$ is the density, the probability of observing a particle at the point $x$ and the time $t$. This (re)confirms that $\nabla S$ is an expression for the momentum, and suggests that $$\rho(x,t) = \psi_0(x,t)^2 = \Psi(x,t) \Psi(x,t)^* = |\Psi(x,t)|^2 $$ is an expression for the probability of observing a particle at a point in space. The identification of the square-magnitude of the quantum-mechanical wavefunction with probability is called the <a href="https://en.wikipedia.org/wiki/Born_rule"><em>Born postulate</em></a>.</p>
 <p>In the end, the Schr&ouml;dinger equation was not accepted because of its mathematical elegance, but because it worked to accurately describe key phenomena. In fact, as we shall see, the (originally empirical) Rydberg formula can be easily justified using the Schr&ouml;dinger equation.</p>
 <p>We can rationalize the form of the quantum mechanical momentum operator, $\hat{p} = -i \hbar \frac{d}{dx} $
-, by a similar argument. Applying the hypothesized momentum operator to the wavefunction, one obtains:</p>
+, by a similar argument. Applying the hypothesized momentum operator to the wavefunction, one obtains:
 \begin{align}
 -i \hbar \frac{d\Psi(x,t)}{dx} &amp;= -i \hbar \frac{d\psi_0(x,t)}{dx} e^{\frac{i S(x,t)}{\hbar}} + \psi_0(x,t) e^{\frac{i S(x,t)}{\hbar}} \frac{dS(x,t)}{dx} \\\\
 &amp;= \text{[imaginary part]} + \frac{dS(x,t)}{dx} \Psi(x,t) \\\\
 &amp;= \text{[imaginary part]} + \text{[classical expression for momentum]}\Psi(x,t)
-\end{align}<p>This indicates that the quantum-mechanical momentum operator is consistent with the classical expression for the momentum, to which it reduces in the classical limit where $\hbar \rightarrow 0$.</p>
+\end{align}
+This indicates that the quantum-mechanical momentum operator is consistent with the classical expression for the momentum, to which it reduces in the classical limit where $\hbar \rightarrow 0$.</p>
 
 </div>
 </div>
@@ -13431,4 +13365,8 @@ where $v(x,t)$ is the velocity and $\rho(x,t)$ is the density, the probability o
     </div>
   </div>
 </body>
+
+ 
+
+
 </html>
