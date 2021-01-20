@@ -1,7 +1,7 @@
 # Introduction to Quantum Chemistry
 
 > **CHEM 3PA3** *Quantum Mechanics and Spectroscopy.* An introduction to quantum chemistry and its applications in spectroscopy and structure and unusual phenomena at the nanoscale.
-
+[Web Site](https://qchem1.qcdevs.org)
 ## Topics
 
 1. [Basics of Jupyter, Python, and Programming](notes/jupyter.md) 
