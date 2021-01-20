@@ -1,6 +1,10 @@
 # Introduction to Quantum Chemistry
 
 > **CHEM 3PA3** *Quantum Mechanics and Spectroscopy.* An introduction to quantum chemistry and its applications in spectroscopy and structure and unusual phenomena at the nanoscale.
+🪞 Self-Reflection
+
+How would you motivate them to be interested in quantum mechanics?
+How would you describe wave-particle duality in a way they could understand?
 
 ## Topics
 
