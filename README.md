@@ -4,21 +4,27 @@
 
 ## Topics
 
-1. [Basics of Jupyter, Python, and Programming](notes/jupyter.md) [html](notes/html/jupyter.html)
+1. [Basics of Jupyter, Python, and Programming](notes/jupyter.md) 
+- Notes [html](notes/html/jupyter.html)
+- Assignments (see below)
+  - [Introduction to Jupyter](problems/Jupyter.md).
+  - [Basic Python](problems/python.md).
+  - [Introduction to Numpy](problems/numpy.md).
+  - [Computing Course Marks with Jupyter, Python, Numpy, and syzygy](problems/syzygy.md).
 1. From Newton to Schrödinger 
-   - Notes [Jupyter](ipynb/History.ipynb), [html](notes/html/History.html)
-2. The Schr&ouml;dinger Equation
-3. The Particle in a Box and the Postulates of Quantum Mechanics
-4. The Harmonic Oscillator
-5. Elementary Spectroscopy
-6. Vibrational Spectroscopy
-7. The Rigid Rotor and Rotational Spectroscopy
-8. The Born-Oppenheimer Approximation
-9.  The One-Electron Atom
-10. Many-Electron Atoms
-11. Hartree-Fock Theory and Ab Initio Methods
-12. Diatomic Molecules
-13. Polyatomic Molecules
+- Notes [Jupyter](ipynb/History.ipynb), [html](notes/html/History.html)
+3. The Schr&ouml;dinger Equation
+4. The Particle in a Box and the Postulates of Quantum Mechanics
+5. The Harmonic Oscillator
+6. Elementary Spectroscopy
+7. Vibrational Spectroscopy
+8. The Rigid Rotor and Rotational Spectroscopy
+9.  The Born-Oppenheimer Approximation
+10. The One-Electron Atom
+11. Many-Electron Atoms
+12. Hartree-Fock Theory and Ab Initio Methods
+13. Diatomic Molecules
+14. Polyatomic Molecules
 
 ## Assignments
 
