@@ -6,6 +6,7 @@
 
 1. [Basics of Jupyter, Python, and Programming](notes/jupyter.md)
 1. From Newton to Schrödinger
+1. The Schr&ouml;dinger Equation
 1. The Particle in a Box and the Postulates of Quantum Mechanics
 1. The Harmonic Oscillator
 1. Elementary Spectroscopy
@@ -13,7 +14,7 @@
 1. The Rigid Rotor and Rotational Spectroscopy
 1. The Born-Oppenheimer Approximation
 1. The One-Electron Atom
-1. Many-Electron Atoms
+1.  Many-Electron Atoms
 1. Hartree-Fock Theory and Ab Initio Methods
 1. Diatomic Molecules
 1. Polyatomic Molecules
