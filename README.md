@@ -11,7 +11,7 @@
   - [Basic Python](problems/python.md).
   - [Introduction to Numpy](problems/numpy.md).
   - [Computing Course Marks with Jupyter, Python, Numpy, and syzygy](problems/syzygy.md).
-1. From Newton to Schrödinger 
+2. From Newton to Schrödinger 
 - Notes [Jupyter](ipynb/History.ipynb), [html](notes/html/History.html)
 3. The Schr&ouml;dinger Equation
 4. The Particle in a Box and the Postulates of Quantum Mechanics
@@ -48,7 +48,7 @@ Extra credit problems should be sent to the instructor in a private chat message
     - [Quantum Chemistry](http://www.mcquarriegeneralchemistry.com/mcqqc2.htm) by Donald McQuarrie
     - [Molecular Quantum Mechanics](https://global.oup.com/academic/product/molecular-quantum-mechanics-9780199541423?cc=ca&lang=en&) by Peter Atkins and Ronald Friedman
 1. Relevant assignments and exams from [MIT](https://ocw.mit.edu/courses/chemistry/), especially the courses on quantum chemistry from [2005](https://ocw.mit.edu/courses/chemistry/5-73-introductory-quantum-mechanics-i-fall-2005/), [2007](https://ocw.mit.edu/courses/chemistry/5-61-physical-chemistry-fall-2007/), [2013](https://dspace.mit.edu/handle/1721.1/120336), [2017](https://ocw.mit.edu/courses/chemistry/5-61-physical-chemistry-fall-2017/), and [2018](https://ocw.mit.edu/courses/chemistry/5-73-quantum-mechanics-i-fall-2018/). Answer keys are sometimes, but not always, provided.
-1. Old assignments, quizzes, and exams from previous iterations of this course. Answer keys are often, but not always, provided (often after a blank version of the assignment/assessment that you can use to practice).
+1. Old assignments, quizzes, and exams from previous iterations of this course and related courses at McMaster. Answer keys are often, but not always, provided (often after a blank version of the assignment/assessment that you can use to practice).
 
 ## Reference Materials
 Materials from McMaster (my notes and Randy Dumont's [book](documents/DumontBook.pdf)) are likely to be especially helpful. The [introductory](http://simons.hec.utah.edu/ITCSecondEdition/TableofContents.html) and [more advanced](http://simons.hec.utah.edu/TheoryPage/BookPDF/TableofContents.html) textbooks from [Jack Simons](http://simons.hec.utah.edu/) are likewise excellent.
