@@ -2,7 +2,7 @@
 <html>
 <head><meta charset="utf-8" />
 
-<title>History</title>
+<title>SchrodingerEq</title>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
@@ -13084,7 +13084,7 @@ div#notebook {
 <script>
 $( document ).ready(function(){
 
-            var cfg = {"base_numbering": 1, "nav_menu": {"height": "688px", "width": "378px"}, "number_sections": true, "sideBar": true, "skip_h1_title": false, "title_cell": "Table of Contents", "title_sidebar": "Contents", "toc_cell": false, "toc_position": {"height": "602.857px", "left": "426px", "top": "183.571px", "width": "236.708px"}, "toc_section_display": true, "toc_window_display": true};
+            var cfg = {"base_numbering": "2", "nav_menu": {}, "number_sections": true, "sideBar": true, "skip_h1_title": false, "title_cell": "Table of Contents", "title_sidebar": "Contents", "toc_cell": false, "toc_position": {}, "toc_section_display": true, "toc_window_display": true};
 
             // fire the main function with these parameters
             require(['nbextensions/toc2/toc2'], function (toc2) {
@@ -13099,16 +13099,17 @@ $( document ).ready(function(){
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1>From Newton to Schr&ouml;dinger</h1>
+<h1>The Schr&ouml;dinger Equation</h1>
+<blockquote><p>The underlying physical laws necessary for the mathematical theory of a large part of physics and the whole of chemistry are thus completely known, and the difficulty is only that the exact application of these laws leads to equations much too complicated to be soluble. It therefore becomes desirable that approximate practical methods of applying quantum mechanics should be developed, which can lead to an explanation of the main features of complex atomic systems without too much computation.</p>
+
+<pre><code>- Paul A. M. Dirac (1929)</code></pre>
+</blockquote>
 <h2 id="&#129349;-Learning-Objectives">&#129349; Learning Objectives<a class="anchor-link" href="#&#129349;-Learning-Objectives">&#182;</a></h2><ul>
-<li>To learn about the historical origins of quantum mechanics.</li>
-<li>To introduce wave-particle duality and key concepts like the<ul>
-<li>Planck-Einstein relation for the energy of a photon</li>
-<li>Einstein-Compton-De Broglie relation between momentum and wavelength</li>
-<li>quantization of energy levels</li>
-</ul>
-</li>
-<li>To introduce the Schr&ouml;dinger equation and the probabilistic interpretation thereof.</li>
+<li>Review of Plane Wave(functions)</li>
+<li>"Derivation" of the Time-Dependent Schr&ouml;dinger Equation (TDSE)</li>
+<li>The Hamiltonian</li>
+<li>The Time-Independent Schr&ouml;dinger Equation (TISE)</li>
+<li>Separation of Variables Method</li>
 </ul>
 
 </div>
@@ -13117,140 +13118,23 @@ $( document ).ready(function(){
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="What-is-Quantum-Mechanics">What is Quantum Mechanics<a class="anchor-link" href="#What-is-Quantum-Mechanics">&#182;</a></h2><p>Starting in the late 1800’s, experimental physicists began to make observations that challenged the “classical” equations of physics.  What emerged was quantum mechanics. Quantum mechanics unifies and supersedes the theories of classical Newtonian mechanics and classical Maxwellian electromagnetism.</p>
-<p>In classical physics, radiation and matter are inherently different:  radiation and matter are governed by different physical laws and modeled with different equations.  Quantum mechanics abolishes the inherent difference between radiation and matter.  Radiation—e.g., light—has properties (a well-defined energy and momentum) that are associated with matter.  Matter—e.g., an electron—has properties (a wavelength) that are associated with radiation.</p>
-<p>The wave-like-ness of matter immediately leads to something called quantization. Matter is “chunky.”  There is no such thing as “half an electron.”  One always has an integer number of elementary particles.  So if I give you a system containing some number of electrons, you can safely say that the total mass of the system is
-$$ m_{\text{total}} = n_e m_e $$ 
-where $m_e$ is the mass of the electron and $n_e$ is a nonnegative integer. Using mass-energy equivalence, this means that the energy of these electrons should also be discrete
-$$ E_{\text{total}} = n_e m_e c^2 $$
-where $c$ is the speed of light.</p>
-<p>Waves, however do not seem to be "chunky". If I want to put more energy into a wave, I can increase its amplitude or increase its frequency (by an noninteger amount).  So it would seem possible to make waves with any amount of energy.  It was Max Planck, in 1900, that proposed that there should also be a “quantization” of radiation, and that radiation should come in integer chunks, with the energy proportional to the frequency of the radiation:
-$$ E_{\text{total}} \propto n_{ph} \nu_{ph} $$
-The proportional constant is called <em>Planck's constant</em>:
-$$ E_{\text{total}} = h n_{ph} \nu_{ph} $$
-where
-\begin{align}
-h &amp;= 6.626 \cdot 10^{-34} \; \text{J} \cdot \text{s} \\\\
-  &amp;= 6.626 \cdot 10^{-34} \; \tfrac{\text{kg} \cdot \text{m}^2}{\text{s}} \\\\
-  &amp;= 6.626 \cdot 10^{-34} \; \tfrac{\text{V} \cdot \text{s}}{\text{C}}
-\end{align}
-Planck's constant is very small, which explains why electromagnetic radiation does not seem to be "chunky" in everyday life. Similarly, the masses and charges of elementary particles are very small, which is why Newtonian mechanics is accurate enough to describe macroscopic phenomena. However, it is essential to include quantum effects when we deal with particles with very little mass (e.g., electrons).</p>
-<p>Planck proposed the quantization of radiation as a mathematical trick to provide a model for blackbody radiation.  In 1905, Einstein interpreted this trick in the most literal possible way, proposing the quantization of light.  This interpretation led to an interpretation of the photoelectric effect, which eventually earned Einstein the Nobel Prize in Physics.  Planck also won the Nobel Prize in physics.</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="How-was-Quantum-Mechanics-Discovered?">How was Quantum Mechanics Discovered?<a class="anchor-link" href="#How-was-Quantum-Mechanics-Discovered?">&#182;</a></h2><p>It is impossible to fully explain the historical foundations of quantum mechanics in a course like this one.  Instead, I will try to give you a very brief overview of some key experiments that changed physics.</p>
-<h3 id="Black-body-Radiation"><a href="https://en.wikipedia.org/wiki/Black-body_radiation">Black-body Radiation</a><a class="anchor-link" href="#Black-body-Radiation">&#182;</a></h3><p><img src="https://github.com/PaulWAyers/IntroQChem/blob/main/linkedFiles/colortemp.jpg?raw=true" alt="Color temperature" title="Light bulbs are rated based on the temperature of a black body that would have a similar spectrum; image from inlineelectric.com/color_temperature">
-<img src="https://upload.wikimedia.org/wikipedia/commons/1/19/Black_body.svg" alt="Black-body radiation" title="The radiation of black body shifts from predominately in the infrared to lower wavelength--red-hot and white-hot, glowing in the visible--as the temperature increases. Classical theory predicts is accurate only at high wavelengths, erroneously predicting an ultraviolet catastrophe with intense radiation emitted at very short frequencies."></p>
-<p>An inflammable object that does not transmit or absorb light is called a black body. Because it is totally opaque and absorbs all light that falls upon it, a black body at zero Kelvin is the very definition of black. However, when you heat a blackbody, it glows. A good (but not perfect) example of a black body is a red-hot poker. An even better example is the sun.  Blackbody radiation has been observed by humans for millennia (or even longer): lava flows, molten glass, molten metal, and many other materials can be considered blackbodies. So it was extremely embarrassing to 19th-century physicists that they could not predict the spectrum—that is, which wavelengths of light occur with what intensity—of a blackbody.</p>
-<p>In principle the spectrum of a black body should be easy to describe with classical statistical mechanics. However, classical statistical mechanics predicted that most of the light emitted would have a very short wavelength, the so-called "ultraviolet catastrophe." Planck suggested that the vibrations of atoms in a black body, and ergo the light emitted therefrom, was quantized into chunks. Planck understood that his result was significant, but he still thought of it as a mathematical trick.</p>
-<h3 id="Photoelectric-Effect"><a href="https://en.wikipedia.org/wiki/Photoelectric_effect">Photoelectric Effect</a><a class="anchor-link" href="#Photoelectric-Effect">&#182;</a></h3><p><img src="https://github.com/PaulWAyers/IntroQChem/blob/main/linkedFiles/photoelectric.png?raw=true" alt="Photoelectric Effect" title="In the photoelectric effect, light with enough energy to ionize electrons from a metal causes the electrons to emit, with maximum kinetic energy proportional to the excess energy of the photon beyond the work function of the metal. Image from hyperphysics."></p>
-<p>When one shines light on a metal surface, one observes that if the light has a low enough frequency (long enough wavelength), then no electrons escape from the surface. This holds (to an excellent approximation) no matter how intense the light is. However, with a sufficiently high frequency (short enough wavelength), electrons will start to escape from the surface. Importantly, the maximum kinetic energy of the electrons escaping from the surface grows as the frequency of the light increases, and the number of electrons escaping from the surface grows as the intensity of the light increases. But increasing the intensity of the light does not increase the maximum kinetic energy of the emitted electrons, nor does increasing the frequency of the light increase the number of electrons emitted.</p>
-<p>Einstein decided to take Planck's mathematical expression at face value, and interpret light as coming in chunks called photons, with energy given by Planck's expression:
-$$ E_{ph} = h \nu_{ph} $$</p>
-<p>This allowed him to describe the photoelectric effect. Specifically, whenever $h \nu $ was less than a threshold value for the substance called its work function, $W$, no light would be emitted. (The work function can be thought of as the "ionization potential" for a metal.) But when $h \nu &gt; W$, then photons had enough energy to remove an electron from the metal, and the surplus energy from the photon could be imparted to the electron as kinetic energy. Ergo
-$$ \text{Kinetic Energy}_{\text{max}} = h \nu - W $$
-As the light becomes more intense, the number of photons increases and the number of electrons emitted increases but, unless the light is very, very, very intense, the maximum kinetic energy of the electrons is left unaltered.</p>
-<h3 id="Compton-Effect"><a href="https://en.wikipedia.org/wiki/Compton_scattering">Compton Effect</a><a class="anchor-link" href="#Compton-Effect">&#182;</a></h3><p><img src="https://upload.wikimedia.org/wikipedia/commons/e/e3/Compton-scattering.svg" alt="Compton Scattering" title="Shows how photons can inelastically scatter with electrons consistent with conservation of energy and momentum, licensed by Jabberwok under CC-SA 3"></p>
-<p>When you shine light on an (isolated) electron sitting at rest, sometimes the light scatters inelastically&mdash;that is the emitted light has a lower frequency than the incident light. The change in energy between the incident and emitted light is manifest in the kinetic energy of the electron. However, it's observed that the electron does not move in an arbitrary direction, but instead moves in the direction that would be expected if a photon were a classical particle moving at the speed of light with effective mass $m_{ph,\text{eff}} = \tfrac{h \nu}{c^2}$. Note that the photon does not actually have mass. However, the photon does have momentum, which explains the inelastic scattering result. The formula is derived by <em>assuming</em> that one can set the rest-mass-energy expression, $E = m c^2$, to the Planck relation for the energy of a photon. Then 
-\begin{align}
-m_{ph,\text{eff}} c^2 &amp;= h \nu \\\\
-  &amp;= \tfrac{h \nu}{c^2}
-\end{align}
-and the momentum of the photon would be its effective mass times its speed, $c$:
-$$ p_{ph} = \tfrac{h \nu}{c} $$
-Recall that the wavelength, $\lambda$, and frequency, $\nu$ of light are related according to the relation
-$$ \nu = \tfrac{c}{\lambda} $$
-This means that the momentum of light can be expressed as
-$$ p_{ph} = \tfrac{h}{\lambda} $$
-This is called the <a href="https://en.wikipedia.org/wiki/Matter_wave">De Broglie relation</a>. One of the key results of quantum mechanics is that the De Broglie relation holds for both waves (photons) and particles.</p>
-<h3 id="Davisson-Germer-Experiment"><a href="https://en.wikipedia.org/wiki/Davisson%E2%80%93Germer_experiment">Davisson-Germer Experiment</a><a class="anchor-link" href="#Davisson-Germer-Experiment">&#182;</a></h3><p><img src="https://upload.wikimedia.org/wikipedia/commons/6/69/Interference_electrons_double-slit_at_10cm.png" alt="Electron Double Slit Experiment" title="Double slit experiment with electrons showing constructive and deconstructive interference. Licensed by Alexandre Gondran under CC-SA 4"></p>
-<p>Based on the results of Compton and De Broglie, one should expect that a beam of electrons should diffract, with patterns of constructive and deconstructive interference, according to their wavelength. The Davisson-Germer experiment confirmed this, showing that electrons (particles) can constructively and deconstructively interfere like waves.</p>
-<h3 id="Rydberg-Formula"><a href="https://en.wikipedia.org/wiki/Rydberg_formula">Rydberg Formula</a><a class="anchor-link" href="#Rydberg-Formula">&#182;</a></h3><p><img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Visible_spectrum_of_hydrogen.jpg" alt="Rydberg Formula" title="The Rydberg formula describes the observed emission/absorption wavelengths for any 1-electron atom. Here is the visible spectrum of the Hydrogen atom, licensed Jan Homan under CC-SA 3"></p>
-<p>By the late 1800s, it was known that when an dilute atomic gas was heated, it did not emit as a black body, but only at certain characteristic wavelengths. Rydberg managed to describe the specific wavelengths of the emission by the empirical formula
-$$ \frac{1}{\lambda} \propto \frac{1}{n^2} - \frac{1}{m^2} $$ 
-where $n$ and $m$ are positive integers: $n,m = 1,2,3,4,\ldots$. Recalling the link between frequency and wavelength, $\nu = \tfrac{c}{\lambda}$ and the Planck-Einstein relation for the energy of a photon,
-$$ h \nu \propto \frac{1}{n^2} - \frac{1}{m^2} $$ 
-This suggests that photons are associated with transitions between energy levels that are labelled by indices, suggesting that the electronic energy levels of atoms are not arbitrary, but only have certain, quantized, values. The Rydberg formula is accurate for all one-electron atoms (at least until relativistic effects become nonneglible). It is also valid for highly-excited states (so-called Rydberg excitations) of many-electron atoms, where a single highly-excited electron is much further from the nucleus than the other electrons.</p>
-<h3 id="Wave-Particle-Duality">Wave-Particle Duality<a class="anchor-link" href="#Wave-Particle-Duality">&#182;</a></h3><blockquote><p>It seems as though we must use sometimes the one theory and sometimes the other, while at times we may use either. We are faced with a new kind of difficulty. We have two contradictory pictures of reality; separately neither of them fully explains the phenomena ... but together they do.</p>
-
-<pre><code>- Albert Einstein</code></pre>
-</blockquote>
-<p>The previous experiments, among many others, established that particles like electrons have wave-like properties, that electromagnetic radiation is composed of discrete photons with particle-like momentum and energy. The fact particles possess wave-like properties and waves provide particle-like properties is called <a href="https://en.wikipedia.org/wiki/Wave%E2%80%93particle_duality">wave-particle duality</a>: there is only one type of "stuff" in the universe and that stuff is "chunky" (like particles) and can constructively and deconstructively interfere (like waves). Moreover, the energies of atoms and molecules are quantized, having only specific discrete values.</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h2>The Schr&ouml;dinger Equation</h2>
-<p><img src="https://github.com/PaulWAyers/IntroQChem/blob/main/linkedFiles/GraveSchrodinger.png?raw=true" alt="Schrodinger Equation" title="The grave of Schrodinger, with his equation. Image from Victor Blacus licensed under Creative Commons SA 3"></p>
-<p>It seems that, in physics, the more we learn, the simpler things become. We used to believe that there were two types of things, "particles" (matter) and "waves" (radiation). Now we understand that there is really only one type of entity, perhaps call it a <em>wavicle</em> if you must give it a name. Electromagnetic radiation comes in discrete chunks (photons) just like particles (e.g., electrons). Photons and particles have position(ish), momentum(ish), and energy(ish), just like classical particles of matter; both also can manifest constructive and deconstructive interference, just like classical waves. The difference between matter and radiation is merley one of perspective.</p>
-<p>In 1925-26, Heisenberg and Schr&ouml;dinger, working independently, built mathematical frameworks to describe the wave-particle duality of quantum particles. Nowadays we usually (except sometimes in spectroscopy) prefer Schr&ouml;dinger's formulation. We will discuss the Schr&ouml;dinger equation in more detail in the next unit, but for now it is worth merely comparing it to other equations from classical mechanics and classical electromagnetism, just to intuitively show how it encapsulates wave-particle duality. Of course, a <a href="http://en.wikipedia.org/wiki/Theoretical_and_experimental_justification_for_the_Schr%C3%B6dinger_equation">more rigorous justification for the Schr&ouml;dinger equation</a> is beyond the scope of this course.</p>
-<p>For simplicity, we will only consider systems in one dimension.</p>
-<blockquote><p><a href="https://en.wikipedia.org/wiki/Wave_equation"><strong>Wave Equation</strong></a> (classical electromagnetism)
-$$ \frac{d^2u(x,t)}{dt^2} = c^2 \frac{d^2u(x,t)}{dx^2} $$</p>
-<p><a href="https://en.wikipedia.org/wiki/Hamilton%E2%80%93Jacobi_equation"><strong>Hamilton-Jacobi Equation</strong></a> (classical mechanics)
-$$ -\frac{dS(x,t)}{dt} = H $$
-where $H = T + V$ is the sum of the kinetic energy, $T$, and the potential energy, $V$, written a function of $S$, $x$, and $t$. In the simplest case, one has: 
-$$ -\frac{dS(x,t)}{dt} = \left( \frac{1}{2m} \frac{dS(x,t)}{dx} \cdot \frac{dS(x,t)}{dx} + V(x,t) \right) $$
-because the momentum can be identified as $p(x,t) = \tfrac{dS(x,t)}{dx} $.</p>
-<p><a href="https://en.wikipedia.org/wiki/Schr%C3%B6dinger_equation"><strong>Schr&ouml;dinger Equation</strong></a> (quantum mechanics)
-$$ \frac{i h}{2 \pi} \frac{d \Psi(x,t)}{dt} =  \left( -\frac{h^2}{2m (2 \pi)^2 } \frac{d^2 \Psi(x,t)}{dx^2} + V(x,t)\Psi(x,t) \right) $$
-The solution, $\Psi(x,t)$ to the Schr&ouml;dinger equation is called the <a href="https://en.wikipedia.org/wiki/Wave_function"><em>wavefunction</em></a>. A key postulate of quantum mechanics is that the wavefunction contains all the information needed to fully specify the observable properties of a quantum system.</p>
-</blockquote>
-<p>All three equations have strong resemblance. But, in particular, the Schr&ouml;dinger equation and the Hamilton-Jacobi equation are consistent with each other. Suppose one uses the wavefunction ansatz,
-$$ \Psi(x,t) = \psi_0(x,t) e^{\frac{2 \pi i S(x,t)}{h}} $$
-where $\psi_0(x,t)$ and $S(x,t)$ are, without loss of generality, assumed to be real-valued functions. We will insert this expression into the Schr&ouml;dinger equation, but first it is useful to define the quantity 
+<h2>Motivation for the Schr&ouml;dinger Equation</h2>
+<p>Just like Newton’s equations or Maxwell’s equations, the Schrödinger equation is a law of nature:  it cannot be “derived.”  Instead, it must be postulated, and then tested by experiment.  However, just as Newton’s equations can be justified insofar as they encapsulate the “laws of motion” formulated by Galileo and Newton, and Maxwell’s equations can be justified insofar as they encapsulate the “laws of electromagnetism” formulated by Gauss, Faraday, Coulomb, etc., Schr&ouml;dinger's equation can be justified by observing that it encapsulates the “laws” of Planck and De Broglie, namely that
+$$ E = h \nu = \hbar \omega $$
+$$ p = \tfrac{h}{\lambda} = \tfrac{h \nu}{c} = \hbar k = h \tilde{\nu} $$</p>
+<h3 id="Angular-Frequency-and-Wavenumber">Angular Frequency and Wavenumber<a class="anchor-link" href="#Angular-Frequency-and-Wavenumber">&#182;</a></h3><p>In these equations I have introduced several new symbols, mostly related to the fact it is often convenient to use angular frequency, 
+$$ \omega = 2 \pi \nu $$
+which naturally pairs with 
 $$ \hbar = \tfrac{h}{2 \pi} $$
-One then can rewrite the wavefunction and the Schr&ouml;dinger equation without the pesky factors of $2 \pi$, respectively,
-$$ \Psi(x,t) = \psi_0(x,t) e^{\frac{i S(x,t)}{\hbar}} $$
-$$ i \hbar \frac{d \Psi(x,t)}{dt} =  \left( -\frac{\hbar^2}{2m} \frac{d^2 \Psi(x,t)}{dx^2} + V(x,t)\Psi(x,t) \right) $$
-Inserting the wavefunction into the Schr&ouml;dinger equation, the left-hand-side is
-$$
- i \hbar \frac{d \Psi(x,t)}{dt} =e^{\frac{i S(x,t)}{\hbar}} \left( i \hbar \frac{d \psi_0(x,t)}{dt}-\psi_0(x,t) \frac{d S(x,t)}{dt} \right)
-$$
-and the right-hand-side is
-\begin{align}
-&amp; \left( -\frac{\hbar^2}{2m} \frac{d^2 \Psi(x,t)}{dx^2} +V(x,t)\Psi(x,t) \right) \\\\
-&amp; = e^{\frac{i S(x,t)}{\hbar}} \left(-\frac{\hbar^2}{2m} \frac{d^2 \psi_0(x,t)}{dx^2} - \frac{i \hbar}{m}\frac{d \psi_0(x,t)}{dx}\frac{d S(x,t)}{dx} - \frac{i \hbar}{2m} \psi_0(x,t) \frac{d^2 S(x,t)}{dx^2} + \frac{1}{2m}\psi_0(x,t)\left(\frac{d S(x,t)}{dx}\right)^2 + V(x,t) \psi_0(x,t) \right) 
-\end{align}
-Inserting these equations into the Schr&ouml;dinger equation and dividing through by $e^{\frac{i S(x,t)}{\hbar}}$ gives:
-\begin{align} 
-&amp; \left( i \hbar \frac{d \psi_0(x,t)}{dt}-\psi_0(x,t) \frac{d S(x,t)}{dt} \right) \\\\
-&amp; = \left(-\frac{\hbar^2}{2m} \frac{d^2 \psi_0(x,t)}{dx^2} - \frac{i \hbar}{m}\frac{d \psi_0(x,t)}{dx}\frac{d S(x,t)}{dx} - \frac{i \hbar}{2m} \psi_0(x,t) \frac{d^2 S(x,t)}{dx^2} + \frac{1}{2m}\psi_0(x,t)\left(\frac{d S(x,t)}{dx}\right)^2 + V(x,t) \psi_0(x,t) \right) 
-\end{align}
-The real and imaginary parts of this equation must be separately equal to each other. The real part of the equation is 
-\begin{align}
--\psi_0(x,t) \frac{d S(x,t)}{dt}
-= \left(-\frac{\hbar^2}{2m} \frac{d^2 \psi_0(x,t)}{dx^2} + \frac{1}{2m}\psi_0(x,t)\left(\frac{d S(x,t)}{dx}\right)^2 + V(x,t) \psi_0(x,t) \right) 
-\end{align}
-Dividing both sides by $\psi_0(x,t)$ and taking the classical limit, where $\hbar \rightarrow 0$, gives back the Hamilton-Jacobi equation,
-$$ - \frac{d S(x,t)}{dt}
-= \left(\frac{1}{2m}\left(\frac{d S(x,t)}{dx}\right)^2 + V(x,t) \right) $$
-The imaginary part of the equation is:
-$$ \hbar \frac{d \psi_0(x,t)}{dt} 
-= - \left(\frac{\hbar}{m}\frac{d \psi_0(x,t)}{dx}\frac{d S(x,t)}{dx} + \frac{\hbar}{2m} \psi_0(x,t) \frac{d^2 S(x,t)}{dx^2} \right) $$
-We notice that this expression is zero in the classical limit. Dividing through by $\hbar$ and using the chain rule, $\frac{d \left(\psi_0(x,t)\right)^2}{dt} = 2 \psi_0(x,t) \frac{d \psi_0(x,t)}{dt}$, we can rewrite this expression as
-$$ \frac{d \left(\psi_0(x,t)\right)^2}{dt} 
-= - \frac{d}{dx} \left(\psi_0(x,t)\right)^2 \left(\frac{1}{m}\frac{d S(x,t)}{dx}\right) $$
-This expression resembles the <a href="https://en.wikipedia.org/wiki/Continuity_equation"><em>equation of continuity</em></a> from classical physics,
-$$ \frac{d \rho(x,t)}{dt} = -\nabla \cdot \rho(x,t) \nabla v(x,t) $$
-where $v(x,t)$ is the velocity and $\rho(x,t)$ is the density, the probability of observing a particle at the point $x$ and the time $t$. This (re)confirms that $\nabla S$ is an expression for the momentum, and suggests that $$\rho(x,t) = \psi_0(x,t)^2 = \Psi(x,t) \Psi(x,t)^* = |\Psi(x,t)|^2 $$ is an expression for the probability of observing a particle at a point in space. The identification of the square-magnitude of the quantum-mechanical wavefunction with probability is called the <a href="https://en.wikipedia.org/wiki/Born_rule"><em>Born postulate</em></a>.</p>
-<p>In the end, the Schr&ouml;dinger equation was not accepted because of its mathematical elegance, but because it worked to accurately describe key phenomena. In fact, as we shall see, the (originally empirical) Rydberg formula can be easily justified using the Schr&ouml;dinger equation.</p>
-<p>We can rationalize the form of the quantum mechanical momentum operator, $\hat{p} = -i \hbar \frac{d}{dx} $
-, by a similar argument. Applying the hypothesized momentum operator to the wavefunction, one obtains:
-\begin{align}
--i \hbar \frac{d\Psi(x,t)}{dx} &amp;= -i \hbar \frac{d\psi_0(x,t)}{dx} e^{\frac{i S(x,t)}{\hbar}} + \psi_0(x,t) e^{\frac{i S(x,t)}{\hbar}} \frac{dS(x,t)}{dx} \\\\
-&amp;= \text{[imaginary part]} + \frac{dS(x,t)}{dx} \Psi(x,t) \\\\
-&amp;= \text{[imaginary part]} + \text{[classical expression for momentum]}\Psi(x,t)
-\end{align}
-This indicates that the quantum-mechanical momentum operator is consistent with the classical expression for the momentum, to which it reduces in the classical limit where $\hbar \rightarrow 0$.</p>
+Similarly, it is often convenient, especially in spectroscopic studies, to use wavenumber,
+$$ \tilde{\nu} = \tfrac{1}{\lambda} = \lambda^{-1} $$
+or its angular analogue
+$$ k = \tfrac{2 \pi}{\lambda} = 2 \pi \tilde{nu} $$
+Sometimes it is also useful to consider the period of the wave, 
+$$ \text{T}  = \nu^{-1} $$
+Recall that the wavelength, frequency, period, and wavenumber of a wave can be related to the speed of light by relations like:
+$$ c = \lambda \nu = \tfrac{\lambda}{\text{T}} = \tilde{\nu} \nu $$
+$$ c = \tfrac{\omega}{k} $$</p>
 
 </div>
 </div>
@@ -13258,11 +13142,135 @@ This indicates that the quantum-mechanical momentum operator is consistent with 
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="&#129694;-Self-Reflection">&#129694; Self-Reflection<a class="anchor-link" href="#&#129694;-Self-Reflection">&#182;</a></h2><p>Imagine you were assigned to describe Quantum Mechanics to a room full of irrascible tweens.</p>
-<ul>
-<li>How would you motivate them to be interested in quantum mechanics? </li>
-<li>How would you describe wave-particle duality in a way they could understand? </li>
-</ul>
+<h3 id="The-Wavefunction">The Wavefunction<a class="anchor-link" href="#The-Wavefunction">&#182;</a></h3><p><img src="https://github.com/PaulWAyers/IntroQChem/blob/main/linkedFiles/planewave1D.gif?raw=true?" alt="1D Plane Wave" title="Visualization of a the real part of a 1-dimensional travelling plane wave, from Szilágyi, András (2019): EMANIM: Interactive visualization of electromagnetic waves. Web application available at URL https://emanim.szialab.org"></p>
+<p>The use of angular frequency and wave number is especially useful when dealing with waves, because the need to explicitly include factors of $2 \pi$ to describe the periodic oscillations is removed. A one-dimensional plane wave, moving in the $x$ direction, with amplitude $A$, wavelength $\lambda = \tfrac{2 \pi}{k}$, and frequency $\nu = \tfrac{\omega}{2 \pi}$ is described by
+$$ \Psi(x,t) = A e^{i (kx - \omega t)} = A\left(\cos(kx-\omega t) + i \sin(kx - \omega t) \right) $$
+Since $\Psi(x,t)$ is the function that describes a wave, we call it a "wavefunction."</p>
+<h3 id="Expression-for-the-Total-Energy">Expression for the Total Energy<a class="anchor-link" href="#Expression-for-the-Total-Energy">&#182;</a></h3><p>Based on electromagnetism, we believe this equation should give us the essential insight we need to describe the "waviness of particles." We need, however, a second equation that will allow us to describe the "particulateness of waves." Since the energy of a wave is proportional to $\omega$ (Planck-Einstein relation) and the momentum of a wave is proportional to $k$ (De Broglie relation), an equation that relates the energy to the momentum is an obvious candidate. For example,
+\begin{align}
+\text{energy} &amp;= \text{kinetic energy} + \text{potential energy} \\
+E &amp;= T + V(x,t) \\
+E &amp;= \frac{p^2}{2m} + V(x,t) 
+\end{align}</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3>The Time-Dependent Schr&ouml;dinger Equation (TDSE)</h3>
+<p>We need to find a way to combine the key equations from the previous two sections. To do this, note that
+$$ \frac{\partial \Psi(x,t)}{\partial t} = (-i \omega) A e^{i (kx - \omega t)} = (-i \omega) \Psi(x,t) $$
+We can link this to Planck's equation for the energy of a photon by multiplying both sides by $i \hbar$, 
+\begin{align}
+i \hbar \frac{\partial \Psi(x,t)}{\partial t} &amp;= (i \hbar) (-i \omega) \Psi(x,t)  = \hbar \omega \Psi(x,t) \\
+&amp;= E \Psi(x,t) 
+\end{align}
+Similarly, differentiating with respect to position,
+\begin{align}
+\frac{\partial \Psi(x,t)}{\partial x} &amp;= (i k) A e^{i (kx - \omega t)} \\
+\frac{\partial^2 \Psi(x,t)}{\partial x^2} &amp;= (i k)^2 A e^{i (kx - \omega t)} = -k^2 \Psi(x,t) 
+\end{align}
+Multiplying both sides by $-\hbar^2$ provides a link to the De Broglie relation,
+$$
+-\hbar^2 \frac{\partial^2 \Psi(x,t)}{\partial x^2} = (\hbar k)^2 \Psi(x,t) = p^2 \Psi(x,t)
+$$</p>
+<p>Now, let's consider our expression for the energy,
+\begin{align}
+E &amp;= \frac{p^2}{2m} + V(x,t) \\
+E \Psi(x,t) &amp;= \frac{p^2}{2m} \Psi(x,t) + V(x,t)\Psi(x,t)
+\end{align}
+Substituting in the equations for the energy and the momentum-squared in terms of wavefunction derivatives, we have:
+$$ i \hbar \frac{\partial \Psi(x,t)}{\partial t} = -\frac{\hbar^2}{2m}\frac{\partial^2 \Psi(x,t)}{\partial x^2} + V(x,t)\Psi(x,t) $$
+This is the <a href="https://en.wikipedia.org/wiki/Schr%C3%B6dinger_equation#Time-dependent_equation"><em>time-dependent Schr&ouml;dinger equation</em></a>, which we often abbreviate as the TDSE.</p>
+<p>The biggest limitations of the Schrödinger equation is that it was derived using the nonrelativistic expression for the kinetic energy of a particle, $T = \tfrac{p^2}{2m}$. For this reason, the Schrödinger equation is not valid for particles that are moving at a substantial fraction of the speed of light (where relativistic effects are important) or for light itself. Quantum mechanics can be extended to such cases, and relativistic quantum mechanics is quite important for the heavier atoms in the periodic table. (Typically relativity is neglected for atoms up to Zinc (Z=30) or Krypton (Z=36), and the included past that. However there are a few molecules containing lighter elements&mdash;e.g., the Sulfur dimer&mdash;where there are chemically (or at least spectroscopically) interesting relativistic effects.) The full relativistic treatment of quantum mechanics leads to “quantum electrodynamics,” which is a rich and interesting subject that we, alas, will not have time to cover.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="The-Hamiltonian">The Hamiltonian<a class="anchor-link" href="#The-Hamiltonian">&#182;</a></h3><p>An equation like Schr&ouml;dinger’s may seem mysterious to us now, but at the time it was derived it seemed very natural. A top-rate physicist like Schr&ouml;dinger had a rich background in classical physics, and he would have understood that there were many results, from classical physics, that suggested that the equations for radiation and for matter could be combined.  One of the strongest such suggestions came from two principles: “Fermat’s principle of least time” and the “Hamilton-Lagrange principle of least action.” Fermat’s principle says that a ray of light goes from point A to point B in the fastest possible way, and can be used to derive all of classical optics. The Hamilton-Lagrange principle says that a particle goes from point A to point B in a way that makes minimizes its action (the product of its momentum and its change in position) along the path. Schr&ouml;dinger would have noticed that Planck’s constant had units of action, and then quickly ascertained that laws of quantum mechanics might be governed by an equation similar to the Hamilton-Jacobi equation for the action, 
+$$\frac{1}{2m}\left(\frac{\partial S}{\partial x}\right)^2 + V(x,t) = \frac{\partial S}{\partial t} $$
+or, equivalently,
+$$ S \left(-\frac{1}{2m} \frac{\partial^2S}{\partial x^2} + V(x,t) \right) = \frac{\partial S}{\partial t} - \frac{1}{2m}\frac{\partial^2S^2}{\partial x^2}$$
+The second term on the right-hand-side of this equation ordinarily integrates to zero (owing to the divergence theorem).</p>
+<p>Similarly, as hinted at in the previous set of notes, the Schr&ouml;dinger equation can be deduced from the (quantum-mechanical) principle of least (really stationary) action. Indeed, the stationary-action principle is more fundamental than the Schr&ouml;dinger equation, and is the basis for quantum electrodynamics, which is the relativistic theory for matter and electromagnetic radiation that undergirds classical mechanics and classical electromagnetism (in the $\hbar \rightarrow 0$ limit) and the Schr&ouml;dinger equation (for nonrelativistic matter, without concern for how matter and radiation interact). Feynman and Schwinger won the Nobel Prize for quantum electrodynamics, but its origins go back to Schr&ouml;dinger's and Dirac's observations about the links between the (least) action principle and the Schr&ouml;dinger equation.</p>
+<p>The Schr&ouml;dinger equation is usually written in the form:
+$$ \color{blue}{ \left( -\frac{\hbar^2}{2m} \frac{\partial^2}{\partial x^2}+V(x,t)\right)}\Psi(x,t) = i \hbar \frac{\partial \Psi(x,t)}{\partial t} $$
+The term in <span style="color:blue">blue</span> is the <a href="https://en.wikipedia.org/wiki/Hamiltonian_(quantum_mechanics">Hamiltonian</a>) operator, $\hat{H}(x,t)$; it is the operator for the energy in quantum mechanics. In classical mechanics, the <a href="https://en.wikipedia.org/wiki/Hamiltonian_mechanics">Hamiltonian</a> is exactly the equation that we started with when we wrote a (classical) expression for the energy of matter, $H(x,t) = \tfrac{p^2}{2m} + V(x,t)$.</p>
+<p>Using the Hamiltonian, we can then write the TDSE in a compact form,<br>
+$$ \color{blue}{\hat{H}(x,t)}\Psi(x,t) = i \hbar \frac{\partial \Psi(x,t)}{\partial t} $$
+As in classical mechanics, the Hamiltonian is the operator for the energy. In quantum mechanics, every observable quantity corresponds to an operator. For example, the kinetic energy operator is
+$$ \hat{T} = -\frac{\hbar^2}{2m} \frac{\partial^2}{\partial x^2} $$
+Moreover, the values of the properties of any quantum-mechanical operator correspond to its eigenvalues,
+$$ (\text{operator}) \Psi = (\text{eigenvalue}) \Psi $$
+This suggests that there should be another equation with the form
+$$ \hat{H}\Psi = E \Psi $$
+This equation is called the <a href="https://en.wikipedia.org/wiki/Schr%C3%B6dinger_equation#Time-independent_equation">time-independent Schr&ouml;dinger equation</a> (TISE).</p>
+<p>My father, an organic chemist, always says he knew that quantum mechanics would be problematic the first time he saw the Schr&ouml;dinger equation. He still refers to $\Psi$ as "Satan's pitchfork" and $\hat{H}$ as the "hell operator." Most people, however, call $\hat{H}$ the Hamiltonian and $\Psi$ the wavefunction.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3>The Time-Independent Schr&ouml;dinger Equation (TISE)</h3>
+<p>In much of chemistry, the Hamiltonian operator is not time-dependent.  For examples, the electrons in a molecule feel a fixed (time-independent) attraction to the nuclei in the molecule and, to a first approximation, the (very small) motion of the nuclei can be neglected.  Similarly, in the absence of a time-varying external field, a molecule as a whole (containing both electrons and nuclei) does not feel a time-varying potential.</p>
+<p>To derive the time-independent Schr&ouml;dinger equation, we insert the time-independent Hamiltonian, 
+$$\hat{H}(x) = -\frac{\hbar^2}{2m} \frac{\partial^2}{\partial x^2} +V(x)$$
+into the time-dependent Schr&ouml;dinger equation,
+$$ \hat{H}(x)\Psi(x,t) = i \hbar \frac{\partial \Psi(x,t)}{\partial t} $$
+and then rearrange the equation into the form
+$$ \left( \hat{H}(x) - i\hbar \frac{\partial}{\partial t} \right) \Psi(x,t) = 0 $$
+This is a differential equation that can be solved by the general technique of <a href="https://en.wikipedia.org/wiki/Separation_of_variables">separation of variables</a>. Specifically,</p>
+<blockquote><p><a href="https://en.wikipedia.org/wiki/Separation_of_variables#Partial_differential_equations"><strong>Separation of Variables</strong></a> Given an operator that is a sum of two operators that depend on different (sets of) variables,
+$$ \hat{A}(x,y) = \hat{A}_x(x) + \hat{A}_y(y) $$
+The solution to the eigenvalue equation
+$$ \hat{A}(x,y) \Psi(x,y) = a \Psi(x,y) $$
+is 
+$$\Psi(x,y) = \Psi_x(x) + \Psi_y(y) $$
+$$ a = a_x + a_y $$
+where 
+$$\hat{A}_x(x) \Psi_x(x) = a_x \Psi_x(x) $$
+$$\hat{A}_y(y) \Psi_y(y) = a_y \Psi_y(y) $$</p>
+</blockquote>
+<p>This tells us that for a time-independent Hamiltonian, the wavefunction has the form $\Psi(x,t) = \psi(x) \phi(t)$, where
+$$\hat{H}(x) \psi(x) = E \psi(x) $$
+$$- i\hbar \frac{\partial}{\partial t} \phi(t) = -E\phi(t) $$
+In the first equation, we have chosen the eigenvalue of the TDSE to be the energy since we know that the Hamiltonian is the quantum-mechanical operator for the energy. The second equation is a separable differential equation, which can be solved as follows:
+\begin{align}
+-i\hbar \frac{\partial}{\partial t} \phi(t) &amp;= -E\phi(t) \\
+\frac{1}{\phi} d\phi &amp;= \frac{i}{\hbar}E dt \\ 
+\int \frac{1}{\phi} d\phi = \int \frac{i}{\hbar}E dt \\
+\ln \phi(t) &amp;= \frac{iEt}{\hbar} + \text{constant of integration}\\
+\phi(t)  &amp;\propto e^{\frac{iEt}{\hbar}}
+\end{align}
+Therefore,
+$$ \Psi(x,t) = \psi(x) \phi(t) \propto \psi(x) e^{\frac{iEt}{\hbar}} $$
+The constant of proportionality is not important here, because the time-dependent and time-independent Schr&ouml;dinger equations are satisfied even if $\Psi(x)$ and $\phi(t)$ are multiplied by constants.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Summary">Summary<a class="anchor-link" href="#Summary">&#182;</a></h2><p>When solving the time-independent Schr&ouml;dinger equation, we need to find all the possible values of E that solve this equation. There are almost always very many different values of E that work and, for this reason, we usually label the solutions to the equation, which are the eigenfunctions (eigenvectors) and eigenvalues of the Hamiltonian operator, accordingly:
+$$ \hat{H}(x)\psi_k(x) = E_k \psi_k(x) $$
+This course is largely about the “art” of solving the TISE</p>
+<p>Sometimes in chemistry we cannot use the time-independent Schr&ouml;dinger equation, and need to use the time-dependent Schr&ouml;dinger equation instead. This is particular important in spectroscopy, where we want to understand how a molecule responds to a time-dependent external electromagnetic field.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="&#129694;-Self-Reflection">&#129694; Self-Reflection<a class="anchor-link" href="#&#129694;-Self-Reflection">&#182;</a></h2><p>The Hamiltonian operator enters the Schr&ouml;dinger equation in a special way, and in this sense is a "more important" operator than other quantum-mechanical operators. Why do you think this is the case?</p>
 
 </div>
 </div>
@@ -13271,7 +13279,12 @@ This indicates that the quantum-mechanical momentum operator is consistent with 
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="&#129300;-Thought-Provoking-Questions">&#129300; Thought-Provoking Questions<a class="anchor-link" href="#&#129300;-Thought-Provoking-Questions">&#182;</a></h2><ul>
-<li>Is it possible for the wavelength of the scattered photon in Compton Scattering to be infinite? (I.e., could the photon be entirely absorbed?)</li>
+<li>Once upon a time, one of the professors at McMaster was asked "why is the quantum-mechanical momentum operator associated with the derivative" and, unable to answer the student, sent the student to me for clarification. Can you justify why the quantum mechanical momentum operator is $\hat{p} = -i \hbar \nabla$?</li>
+<li>Once upon a time, a person interviewing for a job as a quantum chemist was asked how it was possible that the kinetic energy of a quantum system was always positive, given that the quantum-mechanical operator for the kinetic energy was "the negative of something squared", namely, $\hat{T} = \tfrac{-1}{2m}\nabla^2$. How would you answer this question?</li>
+<li>Suppose that one has an electron that is tethered to the origin by a spring, so that the force the electrons feels towards the origin, $x=0$, increases proportionally to its distance, $F = -kx$. What would the Hamiltonian be?</li>
+<li>What are the eigenfunctions of the kinetic-energy operator?</li>
+<li>What are the eigenfunctions of the momentum operator?</li>
+<li>Show, mathematically, that the eigenvectors and eigenvalues of a separable operator, \hat{A}(x,y) = \hat{A}(x) + \hat{A}(y) are given by the above expressions.</li>
 </ul>
 
 </div>
@@ -13281,35 +13294,13 @@ This indicates that the quantum-mechanical momentum operator is consistent with 
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="&#128257;-Recapitulation">&#128257; Recapitulation<a class="anchor-link" href="#&#128257;-Recapitulation">&#182;</a></h2><ul>
-<li>What are the following phenomena/experiments/theories, and why were they important to the establishment of the quantum theory?<ul>
-<li>black-body radiation and the ultraviolet catastrophe</li>
-<li>the photoelectric effect</li>
-<li>Compton scattering</li>
-<li>the Davisson-Germer experiment (and electron scattering/diffraction in general)</li>
-<li>the spectral lines of one-electron atoms, and the Rydberg relation</li>
+<li>Write the quantum-mechanical operator for the energy, kinetic-energy, potential energy, and momentum.</li>
+<li>Write the time-independent and time-dependent Schr&ouml;dinger equations.</li>
+<li>What is the form of the time-dependent wavefunction that solves the TDSE when the Hamiltonian is time-independent.</li>
 </ul>
-</li>
-<li>What are the following key equations, and why are they important?<ul>
-<li>Planck-Einstein relation for the energy of a photon</li>
-<li>De Broglie relation between momentum and wavelength</li>
-<li>the Schr&ouml;dinger equation</li>
-</ul>
-</li>
-<li>What is the quantum mechanical operator for the momentum of a particle?</li>
-<li>List as many properties/characteristics of the wavefunction as you can.</li>
-</ul>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="&#128302;-Next-Up...">&#128302; Next Up...<a class="anchor-link" href="#&#128302;-Next-Up...">&#182;</a></h2><ul>
-<li>Motivate the time-dependent Schr&ouml;dinger equation</li>
-<li>Derive the time-independent Schr&ouml;dinger equation</li>
-<li>Explore the quantum-mechanical operator for momentum</li>
-<li>Study simple one-dimensional Hamiltonians</li>
+<li>Study a particle confined to a box with infinite sides.</li>
+<li>Explore the postulates of quantum mechanics.</li>
 </ul>
 
 </div>
@@ -13326,45 +13317,11 @@ This indicates that the quantum-mechanical momentum operator is consistent with 
 </ul>
 <p>There are also some excellent wikipedia articles:</p>
 <ul>
-<li>On General Quantum Mechanics<ul>
-<li><a href="http://en.wikipedia.org/wiki/Introduction_to_quantum_mechanics">Introduction to Quantum Mechanics</a></li>
-<li><a href="http://en.wikipedia.org/wiki/Quantum_mechanics">Quantum Mechanics</a></li>
-<li><a href="http://en.wikipedia.org/wiki/Mathematical_formulation_of_quantum_mechanics">Mathematical Formulation of Quantum Mechanics</a></li>
-<li><a href="http://en.wikipedia.org/wiki/Basic_concepts_of_quantum_mechanics">Basic Concepts of Quantum Mechanics</a>. See [also].(<a href="https://github.com/PaulWAyers/IntroQChem/blob/main/documents/quantum_summary.pdf?raw=true">https://github.com/PaulWAyers/IntroQChem/blob/main/documents/quantum_summary.pdf?raw=true</a>)</li>
-<li><a href="http://en.wikipedia.org/wiki/Planck_constant">Planck's Constant</a></li>
-<li><a href="http://en.wikipedia.org/wiki/Wave-particle_duality">Wave-particle Duality</a></li>
-</ul>
-</li>
-<li>Black-Body Radiation<ul>
-<li><a href="http://en.wikipedia.org/wiki/Black_body">What is a Black Body?</a></li>
-<li><a href="http://en.wikipedia.org/wiki/Ultraviolet_catastrophe">Ultraviolet Catastrophe</a></li>
-<li><a href="http://en.wikipedia.org/wiki/Rayleigh-Jeans_law">Raleigh-Jeans Law for Classical Black Bodies</a></li>
-<li><a href="http://en.wikipedia.org/wiki/Planck%27s_law">Planck's Law for Black-Body Radiation</a></li>
-<li><a href="http://en.wikipedia.org/wiki/Wien%27s_displacement_law">Wien's Displacement Law for the Peak Wavelength of a Black Body</a></li>
-</ul>
-</li>
-<li><a href="http://en.wikipedia.org/wiki/Photoelectric_effect">Photoelectric Effect</a></li>
-<li><a href="http://en.wikipedia.org/wiki/Compton_scattering">Compton Scattering</a></li>
-<li><a href="http://en.wikipedia.org/wiki/Matter_wave">De Broglie Wavelength</a></li>
-<li>Electron/Particle Diffraction<ul>
-<li><a href="http://en.wikipedia.org/wiki/Davisson%E2%80%93Germer_experiment">Davisson-Germer Experiment</a></li>
-<li><a href="http://en.wikipedia.org/wiki/Electron_diffraction">Electron Diffraction</a></li>
-<li><a href="http://en.wikipedia.org/wiki/Electron_crystallography">Electron Crystallography</a></li>
-<li><a href="http://en.wikipedia.org/wiki/Electron_microscopy">Electron Microscope</a></li>
-<li><a href="http://en.wikipedia.org/wiki/Transmission_Electron_Microscopy">Transmission Electron Microscope</a></li>
-</ul>
-</li>
-<li>Spectral lines in simple atoms<ul>
-<li><a href="http://en.wikipedia.org/wiki/Franck%E2%80%93Hertz_experiment">Franck-Hertz Experiment, the first experiment to show discrete atomic energy levels</a></li>
-<li><a href="http://en.wikipedia.org/wiki/Balmer_series">Balmer formula, a predecessor of the Rydberg formula</a></li>
-<li><a href="http://en.wikipedia.org/wiki/Rydberg_formula">Rydberg formula</a></li>
-<li><a href="http://en.wikipedia.org/wiki/Spectral_line">Spectral Lines</a></li>
-<li><a href="http://en.wikipedia.org/wiki/Atomic_spectral_line">Atomic Spectral Lines</a></li>
-</ul>
-</li>
+<li><a href="https://en.wikipedia.org/wiki/Sinusoidal_plane_wave">Plane Wave</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Wavelength">Wavelength-Frequency Relation</a></li>
 <li>Schr&ouml;dinger Equation<ul>
 <li><a href="http://en.wikipedia.org/wiki/Schrodinger_equation">Schr&ouml;dinger Equation</a></li>
-<li><a href="http://en.wikipedia.org/wiki/Theoretical_and_experimental_justification_for_the_Schr%C3%B6dinger_equation">Theoretical Justification of S.E.</a>. See <a href="https://github.com/PaulWAyers/IntroQChem/blob/main/linkedFiles/SchrodingerHJeq.pdf?raw=true">also</a>.</li>
+<li><a href="http://en.wikipedia.org/wiki/Theoretical_and_experimental_justification_for_the_Schr%C3%B6dinger_equation">Theoretical Justification of S.E.</a>.</li>
 <li><a href="http://en.wikipedia.org/wiki/Momentum_operator">Momentum Operator</a></li>
 </ul>
 </li>
