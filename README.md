@@ -11,6 +11,7 @@
   - [Basic Python](problems/python.md).
   - [Introduction to Numpy](problems/numpy.md).
   - [Computing Course Marks with Jupyter, Python, Numpy, and syzygy](problems/syzygy.md).
+  - Demonstration of Jupyter, Numpy, Python, and Syzygy (computing course marks) [Jupyter](ipynb/GradingDemo.ipynb), [html](ipynb/GradingDemo.html), [video](https://www.macvideo.ca/media/1_5jdntum9), [mp4](linkedFiles/gradesdemo.mp4).
 2. From Newton to Schrödinger 
 - Notes [Jupyter](ipynb/History.ipynb), [html](notes/html/History.html)
 3. The Schr&ouml;dinger Equation
