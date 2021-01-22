@@ -51,6 +51,58 @@ Extra credit problems should be sent to the instructor in a private chat message
 2. Old [assignments](https://github.com/PaulWAyers/IntroQChem/tree/main/extracredit/assignments?raw=true), [quizzes](https://github.com/PaulWAyers/IntroQChem/tree/main/extracredit/quizzes?raw=true), [exams](https://github.com/PaulWAyers/IntroQChem/tree/main/extracredit/exams?raw=true), and [problems](https://github.com/PaulWAyers/IntroQChem/tree/main/extracredit/problems?raw=true) from previous iterations of this course and related courses at McMaster. Answer keys are often, but not always, provided (often after a blank version of the assignment/assessment that you can use to practice). 
 3. You can turn in answers to the various questions that appear towards the end of the course notes.
 
+## Administrative Documents
+
+- [Syllabus](documents/syllabus.pdf)
+- Grading Scheme [Jupyter notebook](ipynb/GradingDemo.ipynb), [web page](ipynb/GradingDemo.html), [video](https://www.macvideo.ca/media/1_5jdntum9), [mp4](linkedFiles/gradesdemo.mp4).
+
+## Learning Objectives
+### Know, understand, and be able to use key equations:
+1. Time-dependent Schrödinger equation.
+2. Time-independent Schrödinger equation
+3. Fermi’s golden rule
+4. Time-correlation formulation for spectral broadening
+
+### Understand key concepts/notation:
+1. Bra-ket notation.
+2. Hermitian operators
+3. Eigenfunctions/eigenvalues
+4. Expansion in a complete orthonormal set
+5. Dirac delta function
+6. Commutators/Simulataneously observable operators
+7. Heisenberg Uncertainty Principle
+8. De Broglie wavelength
+9. Planck’s law
+10. Expectation values
+11. Probabilistic interpretation of the wavefunction
+12. Slater determinants
+13. Allowable and non-allowable wavefunctions.
+14. Allowable and non-allowable operators.
+
+### Ground-state wavefunctions, eigenenergies, quantum numbers, and selection rules for:
+1. Particle-in-a-box.
+2. Harmonic Oscillator
+3. Rigid Rotor
+4. One-electron atom
+5. Angular momentum (L, S, J, etc.)
+
+### Atoms & Molecules:
+1. Concept of effective nuclear charge.
+2. Hartree-Fock
+3. Molecular orbital theory; linear combination of atomic orbitals
+4. Valence bond theory.
+5. Term Symbols
+6. Hund’s Rules
+7. Born-Oppenheimer Approximation
+
+### Computational methods/approaches.
+1. Perturbation Theory
+2. Variational Principle
+3. Evaluating expectation values
+4. “Fundamental experiments” of quantum mechanics like blackbody radiation and the
+photoelectric effect.
+5. Hartree-Fock
+
 ## Reference Materials
 Materials from McMaster (my notes and Randy Dumont's [book](documents/DumontBook.pdf)) are likely to be especially helpful. The [introductory](http://simons.hec.utah.edu/ITCSecondEdition/TableofContents.html) and [more advanced](http://simons.hec.utah.edu/TheoryPage/BookPDF/TableofContents.html) textbooks from [Jack Simons](http://simons.hec.utah.edu/) are likewise excellent.
 
@@ -71,17 +123,13 @@ Materials from McMaster (my notes and Randy Dumont's [book](documents/DumontBook
 15. Online materials from MIT's Quantum Chemistry courses in [2005](https://ocw.mit.edu/courses/chemistry/5-73-introductory-quantum-mechanics-i-fall-2005/), [2007](https://ocw.mit.edu/courses/chemistry/5-61-physical-chemistry-fall-2007/), [2013](https://dspace.mit.edu/handle/1721.1/120336), [2017](https://ocw.mit.edu/courses/chemistry/5-61-physical-chemistry-fall-2017/), and [2018](https://ocw.mit.edu/courses/chemistry/5-73-quantum-mechanics-i-fall-2018/).
 16. Online courses from [EdX](https://online-learning.harvard.edu/course/quantum-world?delta=0) and [Coursera](https://www.coursera.org/lecture/physical-chemistry/introduction-to-quantum-chemistry-i-by-dr-patrick-o-malley-yd2RD).
 
-## Administrative Documents
-
-- [Syllabus](documents/syllabus.pdf)
-- Grading Scheme [Jupyter notebook](ipynb/GradingDemo.ipynb), [web page](ipynb/GradingDemo.html), [video](https://www.macvideo.ca/media/1_5jdntum9), [mp4](linkedFiles/gradesdemo.mp4).
-
 ## Other resources
 
-Keys to assignments are not always available. But where available, instructors can have the keys by e-mailingPaul Ayers, <ayers@mcmaster.ca>, from your official e-mail account. Where possible, `nbgrader` can be used to mark assignments. 
+Keys to assignments are not always available. But where available, instructors can join the (private) GitHub with the answer keys by e-mailing Paul Ayers, <ayers@mcmaster.ca>, from your official e-mail account. Where possible, `nbgrader` can be used to mark assignments. New contributions to the problem bank are most welcome too! 
 
 Some materials are available via binder.org.
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/https%3A%2F%2Fpaulwayers.github.io%2FIntroQChem/main?filepath=ipynb%2FTestQuestions.ipynb)
+
 ## License
 
 This public repository contains course materials for CHEM 3PA3, an introduction to quantum chemistry. The main course content is conveyed through, and assessed by, Jupyter notebooks and is made available via the Creative Commons Zero [CC0 version 1.0](LICENSE) license. However, where I have reposted/adapted content from other sources, those sources retain their copyright/license.
