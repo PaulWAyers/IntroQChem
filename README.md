@@ -13,19 +13,19 @@
   - [Computing Course Marks with Jupyter, Python, Numpy, and syzygy](problems/syzygy.md).
 2. From Newton to Schrödinger 
 - Notes [Jupyter](ipynb/History.ipynb), [html](notes/html/History.html)
-1. The Schr&ouml;dinger Equation
+3. The Schr&ouml;dinger Equation
 - Notes [Jupyter](ipynb/SchrodingerEq.ipynb), [html](notes/html/SchrodingerEq.html)
-2. The Particle in a Box and the Postulates of Quantum Mechanics
-3. The Harmonic Oscillator
-4. Elementary Spectroscopy
-5. Vibrational Spectroscopy
-6. The Rigid Rotor and Rotational Spectroscopy
-7.  The Born-Oppenheimer Approximation
-8.  The One-Electron Atom
-9.  Many-Electron Atoms
-10. Hartree-Fock Theory and Ab Initio Methods
-11. Diatomic Molecules
-12. Polyatomic Molecules
+4. The Particle in a Box and the Postulates of Quantum Mechanics
+5. The Harmonic Oscillator
+6. Elementary Spectroscopy
+7. Vibrational Spectroscopy
+8. The Rigid Rotor and Rotational Spectroscopy
+9.  The Born-Oppenheimer Approximation
+10.  The One-Electron Atom
+11.  Many-Electron Atoms
+12. Hartree-Fock Theory and Ab Initio Methods
+13. Diatomic Molecules
+14. Polyatomic Molecules
 
 ## Assignments
 
