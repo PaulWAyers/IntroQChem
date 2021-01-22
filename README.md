@@ -16,17 +16,18 @@
 - Notes [Jupyter](ipynb/History.ipynb), [html](notes/html/History.html)
 3. The Schr&ouml;dinger Equation
 - Notes [Jupyter](ipynb/SchrodingerEq.ipynb), [html](notes/html/SchrodingerEq.html)
-4. The Particle in a Box and the Postulates of Quantum Mechanics
-5. The Harmonic Oscillator
-6. Elementary Spectroscopy
-7. Vibrational Spectroscopy
-8. The Rigid Rotor and Rotational Spectroscopy
-9.  The Born-Oppenheimer Approximation
-10.  The One-Electron Atom
-11.  Many-Electron Atoms
-12. Hartree-Fock Theory and Ab Initio Methods
-13. Diatomic Molecules
-14. Polyatomic Molecules
+4. The Particle in a Box 
+5. The Postulates of Quantum Mechanics
+6. The Harmonic Oscillator
+7. Elementary Spectroscopy
+8. Vibrational Spectroscopy
+9. The Rigid Rotor and Rotational Spectroscopy
+10. The Born-Oppenheimer Approximation
+11. The One-Electron Atom
+12. Many-Electron Atoms
+13. Hartree-Fock Theory and *Ab Initio* Methods
+14. Diatomic Molecules
+15. Polyatomic Molecules
 
 ## Assignments
 
