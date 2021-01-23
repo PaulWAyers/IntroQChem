@@ -51,8 +51,8 @@ Extra credit problems should be sent to the instructor in a private chat message
     - [Quantum Chemistry](http://www.mcquarriegeneralchemistry.com/mcqqc2.htm) by Donald McQuarrie
     - [Molecular Quantum Mechanics](https://global.oup.com/academic/product/molecular-quantum-mechanics-9780199541423?cc=ca&lang=en&) by Peter Atkins and Ronald Friedman
 1. Relevant assignments and exams from [MIT](https://ocw.mit.edu/courses/chemistry/), especially the courses on quantum chemistry from [2005](https://ocw.mit.edu/courses/chemistry/5-73-introductory-quantum-mechanics-i-fall-2005/), [2007](https://ocw.mit.edu/courses/chemistry/5-61-physical-chemistry-fall-2007/), [2013](https://dspace.mit.edu/handle/1721.1/120336), [2017](https://ocw.mit.edu/courses/chemistry/5-61-physical-chemistry-fall-2017/), and [2018](https://ocw.mit.edu/courses/chemistry/5-73-quantum-mechanics-i-fall-2018/). Answer keys are sometimes, but not always, provided.
-2. Old [assignments](https://github.com/PaulWAyers/IntroQChem/tree/main/extracredit/assignments?raw=true), [quizzes](https://github.com/PaulWAyers/IntroQChem/tree/main/extracredit/quizzes?raw=true), [exams](https://github.com/PaulWAyers/IntroQChem/tree/main/extracredit/exams?raw=true), and [problems](https://github.com/PaulWAyers/IntroQChem/tree/main/extracredit/problems?raw=true) from previous iterations of this course and related courses at McMaster. Answer keys are often, but not always, provided (often after a blank version of the assignment/assessment that you can use to practice). 
-3. You can turn in answers to the various questions that appear towards the end of the course notes.
+1. Old [assignments](https://github.com/PaulWAyers/IntroQChem/tree/main/extracredit/assignments?raw=true), [quizzes](https://github.com/PaulWAyers/IntroQChem/tree/main/extracredit/quizzes?raw=true), [exams](https://github.com/PaulWAyers/IntroQChem/tree/main/extracredit/exams?raw=true), and [problems](https://github.com/PaulWAyers/IntroQChem/tree/main/extracredit/problems?raw=true) from previous iterations of this course and related courses at McMaster. Answer keys are often, but not always, provided (often after a blank version of the assignment/assessment that you can use to practice). 
+1. You can turn in answers to the various questions that appear in the course notes, or in other [materials](documents/LinAlgAnalogy.pdf) I post online.
 
 ## Administrative Documents
 
@@ -112,20 +112,21 @@ Materials from McMaster (my notes and Randy Dumont's [book](documents/DumontBook
 1. Randy Dumont's book, [An Emergent Reality Part 2. Quantum Mechanics](documents/DumontBook.pdf) (courtesy of [Randy Dumont](https://chemistry.mcmaster.ca/component/comprofiler/userprofile/dumontr.html))
 2. [From Newton to Schrödinger](documents/IntroQM.pdf) (Paul's notes)
 3. [The Particle in a Box](documents/PinBox.pdf) (Paul's notes)
-4. [The Harmonic Oscillator](documents/HarmonicOscillator.pdf) (courtesy of [Rogelio Cuevas-Saavedra](https://www.linkedin.com/in/rcuevass/))
-5. The (Heisenberg) [Uncertainty Principle](documents/uncertainty.pdf)(Paul's notes)
-6. Jack Simon's [video](https://www.youtube.com/watch?v=Z5cq7JpsG8I) on the Born-Oppenheimer Approximation and Electronic Wavefunctions
-7. The Born-Oppenheimer Approximation and the [Molecular Potential Energy Surface](documents/PES.pdf) (Paul's notes)
-8. The (Hydrogenic) [1-electron atom](documents/Hatom.pdf) (Paul's notes)
-9. The (Helium-like) [2-electron atom](documents/2elatom.pdf) (Paul's notes)
-10. The [many-electron atom](documents/atoms.pdf) (Paul's notes)
-11. [Molecular wavefunctions](documents/molecules.pdf) (Paul's notes)
-12. [Spectroscopy](documents/spectroscopy.pdf) (Paul's notes)
-13. Notes on time-dependent perturbation and spectroscopy from [MIT](https://ocw.mit.edu/courses/chemistry/5-74-introductory-quantum-mechanics-ii-spring-2009/lecture-notes/)
-14. [Quantum Mechanics in Chemistry](http://simons.hec.utah.edu/TheoryPage/BookPDF/TableofContents.html) by Jack Simons and Jeff Nichols (free online textbook)
-15. [An Introduction to Theoretical Chemistry, 2nd edition](http://simons.hec.utah.edu/ITCSecondEdition/TableofContents.html) by Jack Simons. (free online textbook)
-16. Online materials from MIT's Quantum Chemistry courses in [2005](https://ocw.mit.edu/courses/chemistry/5-73-introductory-quantum-mechanics-i-fall-2005/), [2007](https://ocw.mit.edu/courses/chemistry/5-61-physical-chemistry-fall-2007/), [2013](https://dspace.mit.edu/handle/1721.1/120336), [2017](https://ocw.mit.edu/courses/chemistry/5-61-physical-chemistry-fall-2017/), and [2018](https://ocw.mit.edu/courses/chemistry/5-73-quantum-mechanics-i-fall-2018/).
-17. Online courses from [EdX](https://online-learning.harvard.edu/course/quantum-world?delta=0) and [Coursera](https://www.coursera.org/lecture/physical-chemistry/introduction-to-quantum-chemistry-i-by-dr-patrick-o-malley-yd2RD).
+4. [Notes on the Analogy between Quantum Mechanics' Math and Linear Algebra](documents/LinAlgAnalogy.pdf)
+5. [The Harmonic Oscillator](documents/HarmonicOscillator.pdf) (courtesy of [Rogelio Cuevas-Saavedra](https://www.linkedin.com/in/rcuevass/))
+6. The (Heisenberg) [Uncertainty Principle](documents/uncertainty.pdf)(Paul's notes)
+7. Jack Simon's [video](https://www.youtube.com/watch?v=Z5cq7JpsG8I) on the Born-Oppenheimer Approximation and Electronic Wavefunctions
+8. The Born-Oppenheimer Approximation and the [Molecular Potential Energy Surface](documents/PES.pdf) (Paul's notes)
+9. The (Hydrogenic) [1-electron atom](documents/Hatom.pdf) (Paul's notes)
+10. The (Helium-like) [2-electron atom](documents/2elatom.pdf) (Paul's notes)
+11. The [many-electron atom](documents/atoms.pdf) (Paul's notes)
+12. [Molecular wavefunctions](documents/molecules.pdf) (Paul's notes)
+13. [Spectroscopy](documents/spectroscopy.pdf) (Paul's notes)
+14. Notes on time-dependent perturbation and spectroscopy from [MIT](https://ocw.mit.edu/courses/chemistry/5-74-introductory-quantum-mechanics-ii-spring-2009/lecture-notes/)
+15. [Quantum Mechanics in Chemistry](http://simons.hec.utah.edu/TheoryPage/BookPDF/TableofContents.html) by Jack Simons and Jeff Nichols (free online textbook)
+16. [An Introduction to Theoretical Chemistry, 2nd edition](http://simons.hec.utah.edu/ITCSecondEdition/TableofContents.html) by Jack Simons. (free online textbook)
+17. Online materials from MIT's Quantum Chemistry courses in [2005](https://ocw.mit.edu/courses/chemistry/5-73-introductory-quantum-mechanics-i-fall-2005/), [2007](https://ocw.mit.edu/courses/chemistry/5-61-physical-chemistry-fall-2007/), [2013](https://dspace.mit.edu/handle/1721.1/120336), [2017](https://ocw.mit.edu/courses/chemistry/5-61-physical-chemistry-fall-2017/), and [2018](https://ocw.mit.edu/courses/chemistry/5-73-quantum-mechanics-i-fall-2018/).
+18. Online courses from [EdX](https://online-learning.harvard.edu/course/quantum-world?delta=0) and [Coursera](https://www.coursera.org/lecture/physical-chemistry/introduction-to-quantum-chemistry-i-by-dr-patrick-o-malley-yd2RD).
 
 ## Other resources
 
