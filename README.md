@@ -111,7 +111,7 @@ photoelectric effect.
 5. Hartree-Fock
 
 ## Reference Materials
-Materials from McMaster (my notes and Randy Dumont's [book](documents/DumontBook.pdf)) are likely to be especially helpful. The [introductory](http://simons.hec.utah.edu/ITCSecondEdition/TableofContents.html) and [more advanced](http://simons.hec.utah.edu/TheoryPage/BookPDF/TableofContents.html) textbooks from [Jack Simons](http://simons.hec.utah.edu/) are likewise excellent.
+Materials from McMaster (my notes and Randy Dumont's [book](documents/DumontBook.pdf)) are likely to be especially helpful. The [introductory](http://simons.hec.utah.edu/ITCSecondEdition/TableofContents.html) and [more advanced](http://simons.hec.utah.edu/TheoryPage/BookPDF/TableofContents.html) textbooks from [Jack Simons](http://simons.hec.utah.edu/) are likewise excellent. The (free) [Coursera course from John Daily](https://www.coursera.org/learn/quantum-mechanics#syllabus) mirrors the content of this course, albeit with less depth.
 
 1. Randy Dumont's book, [An Emergent Reality Part 2. Quantum Mechanics](documents/DumontBook.pdf) (courtesy of [Randy Dumont](https://chemistry.mcmaster.ca/component/comprofiler/userprofile/dumontr.html))
 2. [From Newton to Schrödinger](documents/IntroQM.pdf) (Paul's notes)
