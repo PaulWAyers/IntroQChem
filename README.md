@@ -1,10 +1,14 @@
 # Introduction to Quantum Chemistry
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/PaulWAyers/IntroQChem/HEAD)
+
+The notebooks in ipynb directory can be run via mybinder.org by clicking on the badge above.
+
 > **CHEM 3PA3** *Quantum Mechanics and Spectroscopy.* An introduction to quantum chemistry and its applications in spectroscopy and structure and unusual phenomena at the nanoscale.
 [Web Site](https://qchem1.qcdevs.org)
 ## Topics
 
-1. [Basics of Jupyter, Python, and Programming](notes/jupyter.md) 
+1. [Basics of Jupyter, Python, and Programming](notes/jupyter.md)
 - Notes [html](notes/html/jupyter.html)
 - Assignments (see below)
   - [Introduction to Jupyter](problems/Jupyter.md).
@@ -12,11 +16,11 @@
   - [Introduction to Numpy](problems/numpy.md).
   - [Computing Course Marks with Jupyter, Python, Numpy, and syzygy](problems/syzygy.md).
   - Demonstration of Jupyter, Numpy, Python, and Syzygy (computing course marks) [Jupyter](ipynb/GradingDemo.ipynb), [html](ipynb/GradingDemo.html), [video](https://www.macvideo.ca/media/1_5jdntum9), [mp4](linkedFiles/gradesdemo.mp4).
-2. From Newton to Schrödinger 
+2. From Newton to Schrödinger
 - Notes [Jupyter](ipynb/History.ipynb), [html](notes/html/History.html)
 3. The Schr&ouml;dinger Equation
 - Notes [Jupyter](ipynb/SchrodingerEq.ipynb), [html](notes/html/SchrodingerEq.html)
-4. The Particle in a Box 
+4. The Particle in a Box
 5. The Postulates of Quantum Mechanics
 6. The Harmonic Oscillator
 7. Elementary Spectroscopy
@@ -51,7 +55,7 @@ Extra credit problems should be sent to the instructor in a private chat message
     - [Quantum Chemistry](http://www.mcquarriegeneralchemistry.com/mcqqc2.htm) by Donald McQuarrie
     - [Molecular Quantum Mechanics](https://global.oup.com/academic/product/molecular-quantum-mechanics-9780199541423?cc=ca&lang=en&) by Peter Atkins and Ronald Friedman
 1. Relevant assignments and exams from [MIT](https://ocw.mit.edu/courses/chemistry/), especially the courses on quantum chemistry from [2005](https://ocw.mit.edu/courses/chemistry/5-73-introductory-quantum-mechanics-i-fall-2005/), [2007](https://ocw.mit.edu/courses/chemistry/5-61-physical-chemistry-fall-2007/), [2013](https://dspace.mit.edu/handle/1721.1/120336), [2017](https://ocw.mit.edu/courses/chemistry/5-61-physical-chemistry-fall-2017/), and [2018](https://ocw.mit.edu/courses/chemistry/5-73-quantum-mechanics-i-fall-2018/). Answer keys are sometimes, but not always, provided.
-1. Old [assignments](https://github.com/PaulWAyers/IntroQChem/tree/main/extracredit/assignments?raw=true), [quizzes](https://github.com/PaulWAyers/IntroQChem/tree/main/extracredit/quizzes?raw=true), [exams](https://github.com/PaulWAyers/IntroQChem/tree/main/extracredit/exams?raw=true), and [problems](https://github.com/PaulWAyers/IntroQChem/tree/main/extracredit/problems?raw=true) from previous iterations of this course and related courses at McMaster. Answer keys are often, but not always, provided (often after a blank version of the assignment/assessment that you can use to practice). 
+1. Old [assignments](https://github.com/PaulWAyers/IntroQChem/tree/main/extracredit/assignments?raw=true), [quizzes](https://github.com/PaulWAyers/IntroQChem/tree/main/extracredit/quizzes?raw=true), [exams](https://github.com/PaulWAyers/IntroQChem/tree/main/extracredit/exams?raw=true), and [problems](https://github.com/PaulWAyers/IntroQChem/tree/main/extracredit/problems?raw=true) from previous iterations of this course and related courses at McMaster. Answer keys are often, but not always, provided (often after a blank version of the assignment/assessment that you can use to practice).
 1. You can turn in answers to the various questions that appear in the course notes, or in other [materials](documents/LinAlgAnalogy.pdf) I post online.
 
 ## Administrative Documents
@@ -130,10 +134,7 @@ Materials from McMaster (my notes and Randy Dumont's [book](documents/DumontBook
 
 ## Other resources
 
-Keys to assignments are not always available. But where available, instructors can join the (private) GitHub with the answer keys by e-mailing Paul Ayers, <ayers@mcmaster.ca>, from your official e-mail account. Where possible, `nbgrader` can be used to mark assignments. New contributions to the problem bank are most welcome too! 
-
-Some materials are available via binder.org.
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/https%3A%2F%2Fpaulwayers.github.io%2FIntroQChem/main?filepath=ipynb%2FTestQuestions.ipynb)
+Keys to assignments are not always available. But where available, instructors can join the (private) GitHub with the answer keys by e-mailing Paul Ayers, <ayers@mcmaster.ca>, from your official e-mail account. Where possible, `nbgrader` can be used to mark assignments. New contributions to the problem bank are most welcome too!
 
 ## License
 
