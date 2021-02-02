@@ -41,6 +41,7 @@ Your assignments will be turned in using Microsoft Teams. For instructions on ho
 2. [Basic Python](problems/python.md).
 3. [Introduction to Numpy](problems/numpy.md).
 4. [Computing Course Marks with Jupyter, Python, Numpy, and syzygy](problems/syzygy.md).
+5. [Introduction to QM and the Schr&ouml;dinger equation](problems/) 
 
 ## Extra Credit
 
