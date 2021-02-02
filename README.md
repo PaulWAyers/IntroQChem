@@ -18,6 +18,7 @@ The notebooks in ipynb directory can be run via mybinder.org by clicking on the 
   - Demonstration of Jupyter, Numpy, Python, and Syzygy (computing course marks) [Jupyter](ipynb/GradingDemo.ipynb), [html](ipynb/GradingDemo.html), [video](https://www.macvideo.ca/media/1_5jdntum9), [mp4](linkedFiles/gradesdemo.mp4).
 2. From Newton to Schrödinger
 - Notes [Jupyter](ipynb/History.ipynb), [html](notes/html/History.html)
+- [Assignment](problems/IntroQM.md)
 3. The Schr&ouml;dinger Equation
 - Notes [Jupyter](ipynb/SchrodingerEq.ipynb), [html](notes/html/SchrodingerEq.html)
 4. The Particle in a Box
