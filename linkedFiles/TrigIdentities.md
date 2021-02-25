@@ -1,4 +1,4 @@
-# Trigonmetric Identities
+# Trigonometric Identities
 There are a large number of trigonometric identities that one can memorize, but I tend to remember only a few bare essentials. Specifically, I remember the following angle-addition identities:
 $$
 \begin{aligned}
