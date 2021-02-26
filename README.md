@@ -20,7 +20,7 @@ The notebooks in ipynb directory can be run via mybinder.org by clicking on the 
 1. From Newton to Schrödinger
 - Notes [Jupyter](ipynb/History.ipynb), [html](notes/html/History.html)
 - [Assignment](problems/IntroQM.md) 
-- [Assignment Key]()
+- [Assignment Key including extra problems]()
 3. The Schr&ouml;dinger Equation
 - Notes [Jupyter](ipynb/SchrodingerEq.ipynb), [html](notes/html/SchrodingerEq.html)
 4. The Particle in a Box
