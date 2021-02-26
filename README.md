@@ -15,16 +15,16 @@ The notebooks in ipynb directory can be run via mybinder.org by clicking on the 
   - [Introduction to Jupyter](problems/Jupyter.md).
   - [Basic Python](problems/python.md).
   - [Introduction to Numpy](problems/numpy.md).
-  - [Computing Course Marks with Jupyter, Python, Numpy, and syzygy](problems/syzygy.md). [Answer Key]()
+  - [Computing Course Marks with Jupyter, Python, Numpy, and syzygy](problems/syzygy.md). [Answer Key](ipynb/gradingkey.ipynb)
   - Demonstration of Jupyter, Numpy, Python, and Syzygy (computing course marks) [Jupyter](ipynb/GradingDemo.ipynb), [html](ipynb/GradingDemo.html), [video](https://www.macvideo.ca/media/1_5jdntum9), [mp4](linkedFiles/gradesdemo.mp4).
 1. From Newton to Schrödinger
 - Notes [Jupyter](ipynb/History.ipynb), [html](notes/html/History.html)
 - [Assignment](problems/IntroQM.md) 
-- [Assignment Key including extra problems]()
+- [Assignment Key including extra problems](ipynb/IntroQMkey.ipynb)
 3. The Schr&ouml;dinger Equation
 - Notes [Jupyter](ipynb/SchrodingerEq.ipynb), [html](notes/html/SchrodingerEq.html)
 4. The Particle in a Box
-- Notes [Jupyter](), [html]()
+- Notes [Jupyter](ipynb/ParticleIn1DBox.ipynb), [html](notes/html/ParticleIn1DBox.html)
 5. The Postulates of Quantum Mechanics
 6. The Harmonic Oscillator
 7. Elementary Spectroscopy
