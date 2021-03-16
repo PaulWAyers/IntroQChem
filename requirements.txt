@@ -2,4 +2,5 @@ numpy
 scipy
 matplotlib
 sympy
+autograd
 jupyter_contrib_nbextensions
