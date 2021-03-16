@@ -26,16 +26,16 @@ The notebooks in ipynb directory can be run via mybinder.org by clicking on the 
 4. The Particle in a Box
 - Notes [Jupyter](ipynb/ParticleIn1DBox.ipynb), [html](notes/html/ParticleIn1DBox.html)
 5. The Postulates of Quantum Mechanics
-6. The Harmonic Oscillator
-7. Elementary Spectroscopy
-8. Vibrational Spectroscopy
-9.  The Rigid Rotor and Rotational Spectroscopy
-10. The Born-Oppenheimer Approximation
-11. The One-Electron Atom
-12. Many-Electron Atoms
-13. Hartree-Fock Theory and *Ab Initio* Methods
-14. Diatomic Molecules
-15. Polyatomic Molecules
+6. [The Born-Oppenheimer Approximation](documents/PES.pdf)
+7. [1-electron atoms](documents/Hatom.pdf)
+8. [2-electron atoms](documents/2elatom.pdf)
+9. [Many-electron atoms](documents/atomsshort.pdf) 
+10. [Molecules](documents/molecules.pdf)
+11. Hartree-Fock Theory and *Ab Initio* Methods
+12. The Harmonic Oscillator
+13. Elementary Spectroscopy
+14. Vibrational Spectroscopy
+15. The Rigid Rotor and Rotational Spectroscopy
 
 ## Assignments
 
