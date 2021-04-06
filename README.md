@@ -27,17 +27,24 @@ The notebooks in ipynb directory can be run via mybinder.org by clicking on the 
 - Notes [Jupyter](ipynb/ParticleIn1DBox.ipynb), [html](notes/html/ParticleIn1DBox.html)
 - Binder [look at ipynb/ParticleIn1DBox.ipnb](https://mybinder.org/v2/gh/PaulWAyers/IntroQChemProblems/HEAD)
 1. Particles confined in two and three dimensions.
-1. The Postulates of Quantum Mechanics
-2. [The Born-Oppenheimer Approximation](documents/PES.pdf)
-3. [1-electron atoms](documents/Hatom.pdf)
-4. [2-electron atoms](documents/2elatom.pdf)
-5. [Many-electron atoms](documents/atomsshort.pdf) 
-6.  [Molecules](documents/molecules.pdf)
-7.  Hartree-Fock Theory and *Ab Initio* Methods
-8.  The Harmonic Oscillator
-9.  Elementary Spectroscopy
-10. Vibrational Spectroscopy
-11. The Rigid Rotor and Rotational Spectroscopy
+- Notes [Jupyter](ipynb/ParticleInMultiD.ipynb), [html](ipynb/ParticleInMultiD.html),
+- Binder [look at ipynb/ParticleInMultiD.ipynb](https://mybinder.org/v2/gh/PaulWAyers/IntroQChemProblems/HEAD)
+2. The Postulates of Quantum Mechanics
+- Notes [Jupyter](ipynb/Postulates.ipynb), [html](ipynb/Postulates.html),
+- Binder [look at ipynb/Postulates](https://mybinder.org/v2/gh/PaulWAyers/IntroQChemProblems/HEAD)
+4. [1-electron atoms](documents/Hatom.pdf)
+5. Approximate Methods
+6. Many-electron systems
+7. [2-electron atoms](documents/2elatom.pdf)
+8. [Many-electron atoms](documents/atomsshort.pdf) 
+9. [The Born-Oppenheimer Approximation](documents/PES.pdf)
+10. [Molecules](documents/molecules.pdf)
+11. Approximate Methods for Many-Electron Systems
+12. [Hartree-Fock Theory and *Ab Initio* Methods]
+13. The Harmonic Oscillator
+14. [Elementary Spectroscopy](documents/spectroscopy.pdf) 
+15. Vibrational Spectroscopy
+16. The Rigid Rotor and Rotational Spectroscopy
 
 ## Assignments
 
