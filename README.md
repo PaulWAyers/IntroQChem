@@ -26,6 +26,7 @@ The notebooks in ipynb directory can be run via mybinder.org by clicking on the 
 4. The Particle in a Box
 - Notes [Jupyter](ipynb/ParticleIn1DBox.ipynb), [html](notes/html/ParticleIn1DBox.html)
 - Binder [look at ipynb/ParticleIn1DBox.ipnb](https://mybinder.org/v2/gh/PaulWAyers/IntroQChemProblems/HEAD)
+1. Particles confined in two and three dimensions.
 1. The Postulates of Quantum Mechanics
 2. [The Born-Oppenheimer Approximation](documents/PES.pdf)
 3. [1-electron atoms](documents/Hatom.pdf)
@@ -136,9 +137,12 @@ Materials from McMaster (my notes and Randy Dumont's [book](documents/DumontBook
 15. Notes on time-dependent perturbation and spectroscopy from [MIT](https://ocw.mit.edu/courses/chemistry/5-74-introductory-quantum-mechanics-ii-spring-2009/lecture-notes/)
 16. [Quantum Mechanics in Chemistry](http://simons.hec.utah.edu/TheoryPage/BookPDF/TableofContents.html) by Jack Simons and Jeff Nichols (free online textbook)
 17. [An Introduction to Theoretical Chemistry, 2nd edition](http://simons.hec.utah.edu/ITCSecondEdition/TableofContents.html) by Jack Simons. (free online textbook)
-18. Chemistry Libre Texts, including [MacQuarrie and Simon, Chapters 1-15](https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Map%3A_Physical_Chemistry_(McQuarrie_and_Simon)), [Chang's Biophysical Chemistry](https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Map%3A_Physical_Chemistry_for_the_Biosciences_(Chang)/11%3A_Quantum_Mechanics_and_Atomic_Structure), and the [notes](https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Quantum_Mechanics)
-19. Online materials from MIT's Quantum Chemistry courses in [2005](https://ocw.mit.edu/courses/chemistry/5-73-introductory-quantum-mechanics-i-fall-2005/), [2007](https://ocw.mit.edu/courses/chemistry/5-61-physical-chemistry-fall-2007/), [2013](https://dspace.mit.edu/handle/1721.1/120336), [2017](https://ocw.mit.edu/courses/chemistry/5-61-physical-chemistry-fall-2017/), and [2018](https://ocw.mit.edu/courses/chemistry/5-73-quantum-mechanics-i-fall-2018/).
-20. Online courses from [EdX](https://online-learning.harvard.edu/course/quantum-world?delta=0) and [Coursera](https://www.coursera.org/lecture/physical-chemistry/introduction-to-quantum-chemistry-i-by-dr-patrick-o-malley-yd2RD).
+18. [Seymour Blinder's](https://en.wikipedia.org/wiki/S._M._Blinder) [online Quantum Chemistry Notes](http://www.umich.edu/~chem461/) These are really excellent.
+19. [David Sherrill's](https://en.wikipedia.org/wiki/David_Sherrill) [introductory to quantum chemistry notes](http://vergil.chemistry.gatech.edu/notes/quantrev/quantrev.html) [Anything](http://vergil.chemistry.gatech.edu/notes/) by David Sherrill is well worth reading. He writes beautifully!
+20. [A similar GitHub-based course from Iowa State University](https://dpotoyan.github.io/Chem324/intro.html)
+21. Chemistry Libre Texts, including [MacQuarrie and Simon, Chapters 1-15](https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Map%3A_Physical_Chemistry_(McQuarrie_and_Simon)), [Chang's Biophysical Chemistry](https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Map%3A_Physical_Chemistry_for_the_Biosciences_(Chang)/11%3A_Quantum_Mechanics_and_Atomic_Structure), and the [notes](https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Quantum_Mechanics)
+22. Online materials from MIT's Quantum Chemistry courses in [2005](https://ocw.mit.edu/courses/chemistry/5-73-introductory-quantum-mechanics-i-fall-2005/), [2007](https://ocw.mit.edu/courses/chemistry/5-61-physical-chemistry-fall-2007/), [2013](https://dspace.mit.edu/handle/1721.1/120336), [2017](https://ocw.mit.edu/courses/chemistry/5-61-physical-chemistry-fall-2017/), and [2018](https://ocw.mit.edu/courses/chemistry/5-73-quantum-mechanics-i-fall-2018/).
+23. Online courses from [EdX](https://online-learning.harvard.edu/course/quantum-world?delta=0) and [Coursera](https://www.coursera.org/lecture/physical-chemistry/introduction-to-quantum-chemistry-i-by-dr-patrick-o-malley-yd2RD).
 
 ## Other resources
 
