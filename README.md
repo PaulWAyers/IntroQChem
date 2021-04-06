@@ -27,12 +27,14 @@ The notebooks in ipynb directory can be run via mybinder.org by clicking on the 
 - Notes [Jupyter](ipynb/ParticleIn1DBox.ipynb), [html](notes/html/ParticleIn1DBox.html)
 - Binder [look at ipynb/ParticleIn1DBox.ipnb](https://mybinder.org/v2/gh/PaulWAyers/IntroQChemProblems/HEAD)
 1. Particles confined in two and three dimensions.
-- Notes [Jupyter](ipynb/ParticleInMultiD.ipynb), [html](ipynb/ParticleInMultiD.html),
+- Notes [Jupyter](ipynb/ParticleInMultiD.ipynb), [html](ipynb/ParticleInMultiD.html)
 - Binder [look at ipynb/ParticleInMultiD.ipynb](https://mybinder.org/v2/gh/PaulWAyers/IntroQChemProblems/HEAD)
 2. The Postulates of Quantum Mechanics
 - Notes [Jupyter](ipynb/Postulates.ipynb), [html](ipynb/Postulates.html),
 - Binder [look at ipynb/Postulates](https://mybinder.org/v2/gh/PaulWAyers/IntroQChemProblems/HEAD)
 4. [1-electron atoms](documents/Hatom.pdf)
+- Notes [Jupyter](ipynb/OneElectronAtoms.ipynb), [html](ipynb/OneElectronAtoms.html),
+- Binder [look at ipynb/OneElectronAtoms.ipynb](https://mybinder.org/v2/gh/PaulWAyers/IntroQChemProblems/HEAD)
 5. Approximate Methods
 6. Many-electron systems
 7. [2-electron atoms](documents/2elatom.pdf)
