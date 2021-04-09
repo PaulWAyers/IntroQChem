@@ -45,7 +45,7 @@ The notebooks in ipynb directory can be run via mybinder.org by clicking on the 
 2. [Many-electron atoms](documents/atomsshort.pdf) 
 3.  [The Born-Oppenheimer Approximation](documents/PES.pdf)
 4.  [Molecules](documents/molecules.pdf)
-5.  Approximate Methods for Many-Electron Systems
+5.  Simple Approaches for Many-Electron Systems
 6.  [Hartree-Fock Theory and *Ab Initio* Methods](documents/AbInitio.pdf)
 7.  The Harmonic Oscillator
 8.  [Elementary Spectroscopy](documents/spectroscopy.pdf) 
