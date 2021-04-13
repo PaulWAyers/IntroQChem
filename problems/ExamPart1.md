@@ -1,4 +1,25 @@
-# Final Exam Part 1
+# Final Exam
+
+## Rules and Guidelines
+**You must submit your Jupyter notebooks for Part 1 and Part 2 at least 48 hours prior to your appointment for Part 3.** You will be given your grade on Part 1 and Part 2 before the oral exam, so that you know what your status is. *For late submission of Part 1 and/or Part 2, I will deduct 2 points per hour.
+
+&#x1f4d6; **Rules for "Open Book" Exam:**
+**Like all other portions of this exam, this part of the exam is open notes and open library. It is "open internet search" but you (obviously!) can't post questions on an internet discussion board or homework/problem/exam help site. You are not allowed to communicate with your classmates or any other human being (except me) about these questions or your responses, and this includes human beings (singular or plural, known or anonymous) online.**
+
+## Part 1 (30%-40%; Jupyter)
+Part one of the exam has 20 questions (2 points each) and 2 bonus questions (2 points each). **You must submit it at least 48 hours prior to your oral defense/exam.**
+
+You can find Part 1 of the exam online [], at [syzygy], or on [binder]. If you look on binder, look for the file . External to McMaster, you can use this alternative [syzygy link].
+
+## Part 2 (30%-40%; Jupyter)
+Part 2 of the exam will be posted soon. **You must submit it at least 48 hours prior to your oral defense/exam.**
+
+## Part 3 (20%-40%; oral)
+Part 3 of the exam is an oral exam. It will take about 30 minutes. It has three parts.
+- I will ask you questions about your responses in Part 1. I will score this as "plus" "minus" or "neutral", and adjust your grade on Part 1 up or down at most 10 points based on this portion of the exam.
+- I will ask you questions about your responses in Part 2. I will score this as "plus" "minus" or "neutral", and adjust your grade on Part 2 up or down at most 10 points based on this portion of the exam.
+- For each of the 4 question groupings listed in the [notebook], I will pick one question at random. Each of these questions is worth up to 5 points. You can find an html version of the notebook [here](notes/html/Final%20Exam%20Part%203.html). 
+
 
 
 This [Jupyter notebook](../ipynb/IntroQM2021.ipynb) has problems related to the fundamentals of quantum mechanics. You can also access this notebook at [syzygy](https://mcmaster.syzygy.ca/jupyter/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FPaulWAyers%2FIntroQChemProblems&urlpath=tree%2FIntroQChemProblems%2Fipynb%2FIntroQM2021.ipynb&branch=main&depth=1) or on [binder](https://hub.gke2.mybinder.org/user/paulwayers-introqchemproblems-ax9n28q6/notebooks/ipynb/IntroQM2021.ipynb). External to McMaster, you can use binder or this alternative [syzygy link](https://pims.syzygy.ca/jupyter/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FPaulWAyers%2FIntroQChemProblems&urlpath=tree%2FIntroQChemProblems%2Fipynb%2FIntroQM2021.ipynb&branch=main&depth=1). 
