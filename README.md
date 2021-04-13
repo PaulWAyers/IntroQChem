@@ -64,9 +64,9 @@ Your assignments will be turned in using Microsoft Teams. For instructions on ho
 
 ## Exam
 Your exam has 3 parts. The first two parts are worth 40%. The last part is worth 20%. An overview and simple download links is below. But you can also read the detailed instructions.
-1. [Part 1](https://github.com/PaulWAyers/IntroQChem/blob/main/ipynb/Final%20Exam%20Part%201.ipynb?raw=true) (20 questions worth 2 points each; 2 bonus questions worth 2 points each)
+1. [Part 1](/ipynb/Final Exam Part 1.ipynb) (20 questions worth 2 points each; 2 bonus questions worth 2 points each)
 2. [Part 2] 
-3. [Part 3](https://github.com/PaulWAyers/IntroQChem/blob/main/ipynb/Final%20Exam%20Part%203.ipynb?raw=true) (Oral exam. +/- 10 points for your defense of your answers in parts 1 and 2; up to 20 points for your responses to questions randomly selected from those listed here.) [html version](notes/html/Final%20Exam%20Part%203.html)
+3. [Part 3](/ipynb/Final Exam Part 1.ipynb) (Oral exam. +/- 10 points for your defense of your answers in parts 1 and 2; up to 20 points for your responses to questions randomly selected from those listed here.) [html version](notes/html/Final%20Exam%20Part%203.html)
  
  You can find the exam on [binder](https://mybinder.org/v2/gh/PaulWAyers/IntroQChemProblems/HEAD), under ipynb/Final Exam Part #.ipynb, where # is the part of the exam you are interested in.
 
