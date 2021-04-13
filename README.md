@@ -62,6 +62,12 @@ Your assignments will be turned in using Microsoft Teams. For instructions on ho
 4. [Computing Course Marks with Jupyter, Python, Numpy, and syzygy](problems/syzygy.md).
 5. [Introduction to QM and the Schr&ouml;dinger equation](problems/IntroQM.md) 
 
+## Exam
+Your exam has 3 parts. The first two parts are worth 40%. The last part is worth 20%. 
+1. [Part 1] (20 questions worth 2 points each; 2 bonus questions worth 2 points each)
+2. [Part 2] 
+3. [Part 3] (Oral exam. +/- 10 points for your defense of your answers in parts 1 and 2; up to 20 points for your responses to questions randomly selected from those listed here.)
+
 ## Extra Credit
 
 Extra credit problems should be sent to the instructor in a private chat message via Microsoft Teams.
