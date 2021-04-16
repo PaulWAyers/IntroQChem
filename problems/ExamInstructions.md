@@ -39,7 +39,7 @@ Part 3 of the exam has three parts.
 - I will ask you questions about your responses in Part 2. I will score this as "plus" "minus" or "neutral", and adjust your grade on Part 2 up or down at most 10 points based on this portion of the exam.
 - For each of the 4 question groupings listed in the [notebook](../ipynb/Final Exam Part 3.ipynb), I will pick one question at random. Each of these questions is worth up to 5 points. You can find an html version of the notebook [here](../notes/html/Final%20Exam%20Part%203.html). 
 
-> Book a time for your oral exam [here](https://meet-with-paul-ayers.appointlet.com/s/final-exam-3pa3/paul-ayers). The oral exam will happen in the Office Hours Channel of MSTeams, at the [link](https://teams.microsoft.com/l/meetup-join/19%3a182d3d4a1b524c2686371e2b7be2dea8%40thread.tacv2/1618588108023?context=%7b%22Tid%22%3a%2244376307-b429-42ad-8c25-28cd496f4772%22%2c%22Oid%22%3a%22b6da0557-8324-483d-8da7-d3553f55ae77%22%7d)
+> Book a time for your oral exam [here](https://meet-with-paul-ayers.appointlet.com/s/final-exam-3pa3/paul-ayers). The oral exam will happen in the Office Hours Channel of MSTeams, at the [link](https://teams.microsoft.com/l/meetup-join/19%3a182d3d4a1b524c2686371e2b7be2dea8%40thread.tacv2/1618588108023?context=%7b%22Tid%22%3a%2244376307-b429-42ad-8c25-28cd496f4772%22%2c%22Oid%22%3a%22b6da0557-8324-483d-8da7-d3553f55ae77%22%7d). The oral exam will be recorded, and proctored by the course's teaching assistant.
 
 ## Problems?
 Sometimes the above links for syzygy and/or binder may fail because you have existing files in your directory that conflict with the files that are being downloaded and `nbgitpuller` can't figure out how to merge the disparate copies. In this case, possible solutions are:
