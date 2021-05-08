@@ -92,6 +92,7 @@ There are *many* free and paid resources available for deepening your knowledge 
 8. Numpy tutorial [web site](https://numpy.org/doc/stable/user/quickstart.html).
 9. [Python Online Quiz](https://www.tutorialspoint.com/python/python_online_quiz.htm) 
 10. Exercism has tracks for [Python](https://exercism.io/tracks/python) and [Julia](https://exercism.io/tracks/julia).
+11. [GitHub Starter Course](https://github.com/education/github-starter-course)
 
 <br/><br/>
 
