@@ -7,6 +7,12 @@ The notebooks in ipynb directory can be run via mybinder.org by clicking on the 
 > **CHEM 3PA3** *Quantum Mechanics and Spectroscopy.* An introduction to quantum chemistry and its applications in spectroscopy and structure and unusual phenomena at the nanoscale.
 [Web Site](https://qchem1.qcdevs.org)
 
+> **NOTE:** To a large extent, this repository and effort is supplanted by 
+>    [https://github.com/QC-Edu/IntroQM2022](https://github.com/QC-Edu/IntroQM2022)
+> and the associated web site
+>   [https://qchem.qc-edu.org](https://qchem.qc-edu.org)
+> Most of the content here has migrated over. In addition to various refinements/additions in content, moving to Jupyterbook facillitated interactive notebooks. In addition, there are now (autograded) exercises with GitHub classroom, which is a lot easier and more scalable than `nbgrader`. **The present site and its associated repository are no longer maintained.**
+
 ## Topics
 
 1. [Basics of Jupyter, Python, and Programming](notes/jupyter.md)
